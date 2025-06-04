@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["login.component.ts"],
+  "sourcesContent": ["\n      :host ::ng-deep .pi-eye,\n      :host ::ng-deep .pi-eye-slash {\n        transform: scale(1.6);\n        margin-right: 1rem;\n        color: var(--primary-color) !important;\n      }\n    "],
+  "mappings": ";AACM,MAAA,UAAA,CAAA;AAAA,MAAA,UAAA,CAAA;AAEE,aAAA,MAAA;AACA,gBAAA;AACA,SAAA,IAAA;;",
+  "names": []
+}

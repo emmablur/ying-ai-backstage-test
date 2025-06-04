@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/products/components/product-list/product-list.component.scss"],
+  "sourcesContent": ["p-table::ng-deep\n  button.p-ripple.p-element.p-paginator-page.p-paginator-element.p-link.p-highlight {\n  color: white;\n}\n"],
+  "mappings": ";AAAA,OAAA,UAAA,MAAA,CAAA,QAAA,CAAA,SAAA,CAAA,gBAAA,CAAA,mBAAA,CAAA,MAAA,CAAA;AAEE,SAAA;;",
+  "names": []
+}

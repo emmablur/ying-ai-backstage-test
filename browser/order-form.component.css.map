@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/order/components/order-form/order-form.component.scss"],
+  "sourcesContent": ["// Order form styles\n\n.formgroup-container {\n  margin: 1.5rem 0;\n  padding: 1.5rem;\n  background-color: #f8f9fa;\n  border-radius: 8px;\n\n  h3 {\n    margin-top: 0;\n    margin-bottom: 1rem;\n    color: #495057;\n    font-size: 1.2rem;\n    font-weight: 600;\n  }\n}\n\n// 驗證錯誤提示樣式\n.p-error {\n  color: #e74c3c;\n  font-size: 0.875rem;\n  margin-top: 0.25rem;\n  display: block;\n}\n\n// 表單之間的間距\n.field {\n  margin-bottom: 1.5rem;\n}\n\n// 讓圖片顯示更統一\n.w-4rem {\n  width: 4rem;\n}\n\n.h-4rem {\n  height: 4rem;\n}\n\n.object-contain {\n  object-fit: contain;\n}\n"],
+  "mappings": ";AAEA,CAAA;AACE,UAAA,OAAA;AACA,WAAA;AACA,oBAAA;AACA,iBAAA;;AAEA,CANF,oBAME;AACE,cAAA;AACA,iBAAA;AACA,SAAA;AACA,aAAA;AACA,eAAA;;AAKJ,CAAA;AACE,SAAA;AACA,aAAA;AACA,cAAA;AACA,WAAA;;AAIF,CAAA;AACE,iBAAA;;AAIF,CAAA;AACE,SAAA;;AAGF,CAAA;AACE,UAAA;;AAGF,CAAA;AACE,cAAA;;",
+  "names": []
+}

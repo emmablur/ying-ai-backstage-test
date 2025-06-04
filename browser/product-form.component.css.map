@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/products/components/product-form/product-form.component.scss"],
+  "sourcesContent": ["p-fileupload::ng-deep {\n  p-button > button {\n    width: 3rem;\n  }\n}\n"],
+  "mappings": ";AACE,YAAA,UAAA,SAAA,EAAA;AACE,SAAA;;",
+  "names": []
+}
