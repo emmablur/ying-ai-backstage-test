@@ -28207,6 +28207,9 @@ img.flag {
 .rounded {
   border-radius: 0.25rem;
 }
+.rounded-full {
+  border-radius: 9999px;
+}
 .border-2 {
   border-width: 2px;
 }
@@ -28254,6 +28257,9 @@ img.flag {
 }
 .pl-2 {
   padding-left: 0.5rem;
+}
+.pt-6 {
+  padding-top: 1.5rem;
 }
 .pt-\[35vh\] {
   padding-top: 35vh;
@@ -28434,10 +28440,10 @@ a {
 }
 .layout-topbar .layout-topbar-logo {
   display: flex;
+  flex-direction: column;
   align-items: center;
   color: var(--surface-900);
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1rem;
   width: 300px;
   border-radius: 12px;
 }
@@ -28981,7 +28987,7 @@ h6 {
   color: #999;
 }
 .cdk-drag-placeholder::before {
-  content: "\653e\7f6e\5143\4ef6\5230\6b64\8655";
+  content: "";
 }
 @media (max-width: 1200px) {
   .editor-container {

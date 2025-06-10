@@ -1,23 +1,23 @@
 import {
   AuthService
-} from "./chunk-X3OAKXI7.js";
-import "./chunk-AWH5DSHR.js";
-import "./chunk-THLVWF5B.js";
-import "./chunk-JHFWSBOM.js";
-import "./chunk-CJLG4Z27.js";
-import "./chunk-CXDZ3AG4.js";
-import "./chunk-PQVWAI7P.js";
+} from "./chunk-KTNVQTIR.js";
+import "./chunk-SCDWBYXY.js";
+import "./chunk-DT3GFCNP.js";
+import "./chunk-VUC5HP7I.js";
+import "./chunk-NL6JKAZG.js";
+import "./chunk-PZBKEVDN.js";
+import "./chunk-JUXCCURE.js";
 import {
   InputSwitch,
   InputSwitchModule
-} from "./chunk-ALVUVNPT.js";
+} from "./chunk-VNPTJRTB.js";
 import {
   BadgeModule
-} from "./chunk-Q5MVH63Y.js";
+} from "./chunk-ZCE4BX7P.js";
 import {
   Tooltip,
   TooltipModule
-} from "./chunk-EJPJGXYU.js";
+} from "./chunk-AZVP65F4.js";
 import {
   BASE_PATH,
   FormsModule,
@@ -29,12 +29,13 @@ import {
   TimesIcon,
   Toast,
   ToastModule
-} from "./chunk-7PPGXWRP.js";
+} from "./chunk-5OSS66PJ.js";
 import {
   AutoFocus,
   AutoFocusModule,
   ButtonDirective,
   ButtonModule,
+  ConfirmationService,
   ConnectedOverlayScrollHandler,
   DomHandler,
   DomRendererFactory2,
@@ -52,13 +53,14 @@ import {
   RouterModule,
   RouterOutlet,
   SharedModule,
+  Title,
   UniqueComponentId,
   bootstrapApplication,
   provideHttpClient,
   provideRouter,
   withInterceptors,
   zindexutils
-} from "./chunk-NWPDUYPI.js";
+} from "./chunk-SO3O3ZSH.js";
 import {
   animate,
   animation,
@@ -67,7 +69,7 @@ import {
   transition,
   trigger,
   useAnimation
-} from "./chunk-GQGTXWV2.js";
+} from "./chunk-VE2DDJNX.js";
 import {
   ANIMATION_MODULE_TYPE,
   ChangeDetectionScheduler,
@@ -170,7 +172,7 @@ import {
   ɵɵtwoWayListener,
   ɵɵtwoWayProperty,
   ɵɵviewQuery
-} from "./chunk-RPYRJURZ.js";
+} from "./chunk-T5SPLERN.js";
 import {
   __spreadProps,
   __spreadValues
@@ -205,7 +207,7 @@ var AsyncAnimationRendererFactory = class _AsyncAnimationRendererFactory {
    * @internal
    */
   loadImpl() {
-    const loadFn = () => this.moduleImpl ?? import("./chunk-4A6SDKVC.js").then((m) => m);
+    const loadFn = () => this.moduleImpl ?? import("./chunk-KBN6RGUR.js").then((m) => m);
     let moduleImplPromise;
     if (this.loadingSchedulerFn) {
       moduleImplPromise = this.loadingSchedulerFn(loadFn);
@@ -746,7 +748,7 @@ var AppMenuitemComponent = class _AppMenuitemComponent {
 // src/app/layout/app.menu.component.ts
 function AppMenuComponent_ng_container_1_li_1_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275element(0, "li", 6);
+    \u0275\u0275element(0, "li", 4);
   }
   if (rf & 2) {
     const ctx_r0 = \u0275\u0275nextContext();
@@ -757,13 +759,13 @@ function AppMenuComponent_ng_container_1_li_1_Template(rf, ctx) {
 }
 function AppMenuComponent_ng_container_1_li_2_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275element(0, "li", 7);
+    \u0275\u0275element(0, "li", 5);
   }
 }
 function AppMenuComponent_ng_container_1_Template(rf, ctx) {
   if (rf & 1) {
     \u0275\u0275elementContainerStart(0);
-    \u0275\u0275template(1, AppMenuComponent_ng_container_1_li_1_Template, 1, 3, "li", 4)(2, AppMenuComponent_ng_container_1_li_2_Template, 1, 0, "li", 5);
+    \u0275\u0275template(1, AppMenuComponent_ng_container_1_li_1_Template, 1, 3, "li", 2)(2, AppMenuComponent_ng_container_1_li_2_Template, 1, 0, "li", 3);
     \u0275\u0275elementContainerEnd();
   }
   if (rf & 2) {
@@ -776,6 +778,7 @@ function AppMenuComponent_ng_container_1_Template(rf, ctx) {
 }
 var AppMenuComponent = class _AppMenuComponent {
   layoutService;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   model = [];
   constructor(layoutService) {
     this.layoutService = layoutService;
@@ -825,6 +828,16 @@ var AppMenuComponent = class _AppMenuComponent {
             label: "\u4ED8\u6B3E\u8CC7\u8A0A\u7BA1\u7406",
             icon: "pi pi-fw pi-credit-card",
             routerLink: ["/settings/payment-info"]
+          },
+          {
+            label: "\u9996\u9801\u5927\u5716\u8F2A\u64AD\u7BA1\u7406",
+            icon: "pi pi-fw pi-images",
+            routerLink: ["/settings/homepage-carousel"]
+          },
+          {
+            label: "\u9996\u9801\u5546\u54C1\u8F2A\u64AD\u7BA1\u7406",
+            icon: "pi pi-fw pi-shopping-cart",
+            routerLink: ["/settings/homepage-product-carousel"]
           }
         ]
       }
@@ -973,19 +986,15 @@ var AppMenuComponent = class _AppMenuComponent {
   static \u0275fac = function AppMenuComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _AppMenuComponent)(\u0275\u0275directiveInject(LayoutService));
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppMenuComponent, selectors: [["app-menu"]], decls: 5, vars: 3, consts: [[1, "layout-menu"], [4, "ngFor", "ngForOf"], ["href", "https://www.primefaces.org/primeblocks-ng/#/"], ["alt", "Prime Blocks", 1, "w-full", "mt-3", 3, "src"], ["app-menuitem", "", 3, "item", "index", "root", 4, "ngIf"], ["class", "menu-separator", 4, "ngIf"], ["app-menuitem", "", 3, "item", "index", "root"], [1, "menu-separator"]], template: function AppMenuComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppMenuComponent, selectors: [["app-menu"]], decls: 2, vars: 1, consts: [[1, "layout-menu"], [4, "ngFor", "ngForOf"], ["app-menuitem", "", 3, "item", "index", "root", 4, "ngIf"], ["class", "menu-separator", 4, "ngIf"], ["app-menuitem", "", 3, "item", "index", "root"], [1, "menu-separator"]], template: function AppMenuComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "ul", 0);
       \u0275\u0275template(1, AppMenuComponent_ng_container_1_Template, 3, 2, "ng-container", 1);
-      \u0275\u0275elementStart(2, "li")(3, "a", 2);
-      \u0275\u0275element(4, "img", 3);
-      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementEnd();
     }
     if (rf & 2) {
       \u0275\u0275advance();
       \u0275\u0275property("ngForOf", ctx.model);
-      \u0275\u0275advance(3);
-      \u0275\u0275propertyInterpolate1("src", "assets/layout/images/", ctx.layoutService.config().colorScheme === "light" ? "banner-primeblocks" : "banner-primeblocks-dark", ".png", \u0275\u0275sanitizeUrl);
     }
   }, dependencies: [NgForOf, NgIf, AppMenuitemComponent], encapsulation: 2 });
 };
@@ -2491,13 +2500,13 @@ var AppTopBarComponent = class _AppTopBarComponent {
       \u0275\u0275queryRefresh(_t = \u0275\u0275loadQuery()) && (ctx.topbarMenuButton = _t.first);
       \u0275\u0275queryRefresh(_t = \u0275\u0275loadQuery()) && (ctx.menu = _t.first);
     }
-  }, decls: 23, vars: 8, consts: [["menubutton", ""], ["topbarmenubutton", ""], ["topbarmenu", ""], ["menu", ""], [1, "layout-topbar"], ["routerLink", "", 1, "layout-topbar-logo"], ["alt", "logo", 3, "src"], [1, "p-link", "layout-menu-button", "layout-topbar-button", 3, "click"], [1, "pi", "pi-bars"], [1, "p-link", "layout-topbar-menu-button", "layout-topbar-button", 3, "click"], [1, "pi", "pi-ellipsis-v"], [1, "layout-topbar-menu", 3, "ngClass"], [1, "p-link", "layout-topbar-button", 3, "click"], [1, "pi", "pi-user"], [3, "popup", "model"], [1, "p-link", "layout-topbar-button", 3, "routerLink"], [1, "pi", "pi-cog"]], template: function AppTopBarComponent_Template(rf, ctx) {
+  }, decls: 19, vars: 7, consts: [["menubutton", ""], ["topbarmenubutton", ""], ["topbarmenu", ""], ["menu", ""], [1, "layout-topbar"], ["routerLink", "", 1, "layout-topbar-logo"], ["alt", "logo", 3, "src"], [1, "p-link", "layout-menu-button", "layout-topbar-button", 3, "click"], [1, "pi", "pi-bars"], [1, "p-link", "layout-topbar-menu-button", "layout-topbar-button", 3, "click"], [1, "pi", "pi-ellipsis-v"], [1, "layout-topbar-menu", 3, "ngClass"], [1, "p-link", "layout-topbar-button", 3, "click"], [1, "pi", "pi-user"], [3, "popup", "model"]], template: function AppTopBarComponent_Template(rf, ctx) {
     if (rf & 1) {
       const _r1 = \u0275\u0275getCurrentView();
       \u0275\u0275elementStart(0, "div", 4)(1, "a", 5);
       \u0275\u0275element(2, "img", 6);
       \u0275\u0275elementStart(3, "span");
-      \u0275\u0275text(4, "SAKAI");
+      \u0275\u0275text(4, "\u82F1\u611B\u624B\u4F5C\u5F8C\u53F0\u7BA1\u7406\u7CFB\u7D71");
       \u0275\u0275elementEnd()();
       \u0275\u0275elementStart(5, "button", 7, 0);
       \u0275\u0275listener("click", function AppTopBarComponent_Template_button_click_5_listener() {
@@ -2524,27 +2533,329 @@ var AppTopBarComponent = class _AppTopBarComponent {
       \u0275\u0275text(16, "Profile");
       \u0275\u0275elementEnd()();
       \u0275\u0275element(17, "p-menu", 14, 3);
-      \u0275\u0275elementStart(19, "button", 15);
-      \u0275\u0275element(20, "i", 16);
-      \u0275\u0275elementStart(21, "span");
-      \u0275\u0275text(22, "Settings");
-      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementEnd()();
     }
     if (rf & 2) {
       \u0275\u0275advance(2);
-      \u0275\u0275propertyInterpolate1("src", "assets/layout/images/", ctx.layoutService.config().colorScheme === "light" ? "logo-dark" : "logo-white", ".svg", \u0275\u0275sanitizeUrl);
+      \u0275\u0275propertyInterpolate1("src", "img/", ctx.layoutService.config().colorScheme === "light" ? "Logo_text with icon(B)" : "Logo_text with icon(B)", ".png", \u0275\u0275sanitizeUrl);
       \u0275\u0275advance(9);
-      \u0275\u0275property("ngClass", \u0275\u0275pureFunction1(6, _c32, ctx.layoutService.state.profileSidebarVisible));
+      \u0275\u0275property("ngClass", \u0275\u0275pureFunction1(5, _c32, ctx.layoutService.state.profileSidebarVisible));
       \u0275\u0275advance(6);
       \u0275\u0275property("popup", true)("model", ctx.menuItems);
-      \u0275\u0275advance(2);
-      \u0275\u0275property("routerLink", "/documentation");
     }
   }, dependencies: [NgClass, RouterLink, Menu], encapsulation: 2 });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppTopBarComponent, { className: "AppTopBarComponent", filePath: "src/app/layout/app.topbar.component.ts", lineNumber: 10 });
 })();
+
+// src/app/layout/app.footer.component.ts
+var AppFooterComponent = class _AppFooterComponent {
+  layoutService;
+  constructor(layoutService) {
+    this.layoutService = layoutService;
+  }
+  static \u0275fac = function AppFooterComponent_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || _AppFooterComponent)(\u0275\u0275directiveInject(LayoutService));
+  };
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppFooterComponent, selectors: [["app-footer"]], decls: 2, vars: 0, consts: [[1, "layout-footer"]], template: function AppFooterComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      \u0275\u0275elementStart(0, "div", 0);
+      \u0275\u0275text(1, "\u82F1\u611B\u624B\u4F5C\u5F8C\u53F0\u7BA1\u7406\u7CFB\u7D71");
+      \u0275\u0275elementEnd();
+    }
+  }, encapsulation: 2 });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppFooterComponent, { className: "AppFooterComponent", filePath: "src/app/layout/app.footer.component.ts", lineNumber: 8 });
+})();
+
+// src/app/layout/app.layout.component.ts
+var AppLayoutComponent = class _AppLayoutComponent {
+  layoutService;
+  renderer;
+  router;
+  authService;
+  overlayMenuOpenSubscription;
+  sessionCheckSubscription;
+  menuOutsideClickListener;
+  profileMenuOutsideClickListener;
+  appSidebar;
+  appTopbar;
+  constructor(layoutService, renderer, router, authService) {
+    this.layoutService = layoutService;
+    this.renderer = renderer;
+    this.router = router;
+    this.authService = authService;
+    this.overlayMenuOpenSubscription = this.layoutService.overlayOpen$.subscribe(() => {
+      if (!this.menuOutsideClickListener) {
+        this.menuOutsideClickListener = this.renderer.listen("document", "click", (event) => {
+          const isOutsideClicked = !(this.appSidebar.el.nativeElement.isSameNode(event.target) || this.appSidebar.el.nativeElement.contains(event.target) || this.appTopbar.menuButton.nativeElement.isSameNode(event.target) || this.appTopbar.menuButton.nativeElement.contains(event.target));
+          if (isOutsideClicked) {
+            this.hideMenu();
+          }
+        });
+      }
+      if (!this.profileMenuOutsideClickListener) {
+        this.profileMenuOutsideClickListener = this.renderer.listen("document", "click", (event) => {
+          const isOutsideClicked = !(this.appTopbar.menu.nativeElement.isSameNode(event.target) || this.appTopbar.menu.nativeElement.contains(event.target) || this.appTopbar.topbarMenuButton.nativeElement.isSameNode(event.target) || this.appTopbar.topbarMenuButton.nativeElement.contains(event.target));
+          if (isOutsideClicked) {
+            this.hideProfileMenu();
+          }
+        });
+      }
+      if (this.layoutService.state.staticMenuMobileActive) {
+        this.blockBodyScroll();
+      }
+    });
+    this.router.events.pipe(filter((event) => event instanceof NavigationEnd)).subscribe(() => {
+      this.hideMenu();
+      this.hideProfileMenu();
+    });
+    this.sessionCheckSubscription = this.authService.startSessionCheck();
+  }
+  hideMenu() {
+    this.layoutService.state.overlayMenuActive = false;
+    this.layoutService.state.staticMenuMobileActive = false;
+    this.layoutService.state.menuHoverActive = false;
+    if (this.menuOutsideClickListener) {
+      this.menuOutsideClickListener();
+      this.menuOutsideClickListener = null;
+    }
+    this.unblockBodyScroll();
+  }
+  hideProfileMenu() {
+    this.layoutService.state.profileSidebarVisible = false;
+    if (this.profileMenuOutsideClickListener) {
+      this.profileMenuOutsideClickListener();
+      this.profileMenuOutsideClickListener = null;
+    }
+  }
+  blockBodyScroll() {
+    if (document.body.classList) {
+      document.body.classList.add("blocked-scroll");
+    } else {
+      document.body.className += " blocked-scroll";
+    }
+  }
+  unblockBodyScroll() {
+    if (document.body.classList) {
+      document.body.classList.remove("blocked-scroll");
+    } else {
+      document.body.className = document.body.className.replace(new RegExp("(^|\\b)" + "blocked-scroll".split(" ").join("|") + "(\\b|$)", "gi"), " ");
+    }
+  }
+  get containerClass() {
+    return {
+      "layout-theme-light": this.layoutService.config().colorScheme === "light",
+      "layout-theme-dark": this.layoutService.config().colorScheme === "dark",
+      "layout-overlay": this.layoutService.config().menuMode === "overlay",
+      "layout-static": this.layoutService.config().menuMode === "static",
+      "layout-static-inactive": this.layoutService.state.staticMenuDesktopInactive && this.layoutService.config().menuMode === "static",
+      "layout-overlay-active": this.layoutService.state.overlayMenuActive,
+      "layout-mobile-active": this.layoutService.state.staticMenuMobileActive,
+      "p-input-filled": this.layoutService.config().inputStyle === "filled",
+      "p-ripple-disabled": !this.layoutService.config().ripple
+    };
+  }
+  ngOnDestroy() {
+    if (this.overlayMenuOpenSubscription) {
+      this.overlayMenuOpenSubscription.unsubscribe();
+    }
+    if (this.menuOutsideClickListener) {
+      this.menuOutsideClickListener();
+    }
+    if (this.sessionCheckSubscription) {
+      this.sessionCheckSubscription.unsubscribe();
+    }
+  }
+  static \u0275fac = function AppLayoutComponent_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || _AppLayoutComponent)(\u0275\u0275directiveInject(LayoutService), \u0275\u0275directiveInject(Renderer2), \u0275\u0275directiveInject(Router), \u0275\u0275directiveInject(AuthService));
+  };
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppLayoutComponent, selectors: [["app-layout"]], viewQuery: function AppLayoutComponent_Query(rf, ctx) {
+    if (rf & 1) {
+      \u0275\u0275viewQuery(AppSidebarComponent, 5);
+      \u0275\u0275viewQuery(AppTopBarComponent, 5);
+    }
+    if (rf & 2) {
+      let _t;
+      \u0275\u0275queryRefresh(_t = \u0275\u0275loadQuery()) && (ctx.appSidebar = _t.first);
+      \u0275\u0275queryRefresh(_t = \u0275\u0275loadQuery()) && (ctx.appTopbar = _t.first);
+    }
+  }, decls: 9, vars: 1, consts: [[1, "layout-wrapper", 3, "ngClass"], [1, "layout-sidebar"], [1, "layout-main-container"], [1, "layout-main"], [1, "layout-mask"]], template: function AppLayoutComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      \u0275\u0275elementStart(0, "div", 0);
+      \u0275\u0275element(1, "app-topbar");
+      \u0275\u0275elementStart(2, "div", 1);
+      \u0275\u0275element(3, "app-sidebar");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(4, "div", 2)(5, "div", 3);
+      \u0275\u0275element(6, "router-outlet");
+      \u0275\u0275elementEnd();
+      \u0275\u0275element(7, "app-footer");
+      \u0275\u0275elementEnd();
+      \u0275\u0275element(8, "div", 4);
+      \u0275\u0275elementEnd();
+    }
+    if (rf & 2) {
+      \u0275\u0275property("ngClass", ctx.containerClass);
+    }
+  }, dependencies: [NgClass, RouterOutlet, AppTopBarComponent, AppFooterComponent, AppSidebarComponent], encapsulation: 2 });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppLayoutComponent, { className: "AppLayoutComponent", filePath: "src/app/layout/app.layout.component.ts", lineNumber: 14 });
+})();
+
+// src/app/core/components/home/home.component.ts
+var HomeComponent = class _HomeComponent {
+  static \u0275fac = function HomeComponent_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || _HomeComponent)();
+  };
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 2, vars: 0, consts: [[1, "text-center", "pt-[35vh]"]], template: function HomeComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      \u0275\u0275elementStart(0, "div", 0);
+      \u0275\u0275text(1, "\u8ACB\u900F\u904E\u5DE6\u5074\u9078\u55AE\u9078\u64C7\u529F\u80FD");
+      \u0275\u0275elementEnd();
+    }
+  }, styles: ["\n\n[_nghost-%COMP%] {\n  display: block;\n}\n/*# sourceMappingURL=home.component.css.map */"] });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(HomeComponent, { className: "HomeComponent", filePath: "src/app/core/components/home/home.component.ts", lineNumber: 10 });
+})();
+
+// src/app/app.routes.ts
+var routes = [
+  {
+    path: "",
+    component: AppLayoutComponent,
+    children: [
+      { path: "", component: HomeComponent },
+      {
+        path: "products",
+        loadChildren: () => import("./chunk-DUOVQRPD.js").then((m) => m.ProductsModule)
+      },
+      {
+        path: "order",
+        loadChildren: () => import("./chunk-6JABGY2U.js").then((m) => m.OrderModule)
+      },
+      {
+        path: "contents",
+        loadChildren: () => import("./chunk-UXZ32ENS.js").then((m) => m.ContentsModule)
+      },
+      {
+        path: "settings",
+        loadChildren: () => import("./chunk-YO5NQ5I4.js").then((m) => m.SettingsModule)
+      },
+      {
+        path: "accounts",
+        loadChildren: () => import("./chunk-ZGJUNMWD.js").then((m) => m.AccountsModule)
+      },
+      {
+        path: "users",
+        loadChildren: () => import("./chunk-C33BP2JU.js").then((m) => m.UsersModule)
+      },
+      {
+        path: "menus",
+        loadChildren: () => import("./chunk-CACK52KI.js").then((m) => m.MenusModule)
+      }
+    ]
+  },
+  {
+    path: "auth",
+    loadChildren: () => import("./chunk-INWRF5QZ.js").then((m) => m.AuthModule)
+  }
+  // {
+  //   path: 'editor',
+  //   component: EditorIndexComponent,
+  // },
+];
+
+// src/app/core/interceptors/auth.interceptor.ts
+var authInterceptor = (req, next) => {
+  const router = inject(Router);
+  const messageService = inject(MessageService);
+  const authService = inject(AuthService);
+  const isAuthRequest = req.url.includes("/api/admin/auth/login") || req.url.includes("/api/admin/auth/refresh-token");
+  let authReq = req;
+  const token = authService.getAccessToken();
+  if (token && !isAuthRequest) {
+    authReq = req.clone({
+      headers: req.headers.set("Authorization", `Bearer ${token}`)
+    });
+  }
+  return next(authReq).pipe(catchError((error) => {
+    if (error.status === 401) {
+      if (!isAuthRequest) {
+        return handleUnauthorizedError(authReq, next, error, authService, router, messageService);
+      } else {
+        return logoutAndRedirect(error, authService, router, messageService);
+      }
+    }
+    return throwError(() => error);
+  }));
+};
+function handleUnauthorizedError(request, next, error, authService, router, messageService) {
+  if (!authService.isRefreshingTokenInProgress()) {
+    authService.setRefreshingToken(true);
+    authService.resetRefreshTokenSubject();
+    return authService.refreshToken().pipe(
+      // Switch to new observable after token refresh completes
+      switchMap(() => {
+        authService.setRefreshingToken(false);
+        const newToken = authService.getAccessToken();
+        if (newToken) {
+          request = request.clone({
+            headers: request.headers.set("Authorization", `Bearer ${newToken}`)
+          });
+        }
+        return next(request);
+      }),
+      // Handle errors during token refresh
+      catchError((refreshError) => {
+        return logoutAndRedirect(refreshError, authService, router, messageService);
+      })
+    );
+  } else {
+    return authService.getRefreshTokenSubject().pipe(filter((token) => token !== null), take(1), switchMap((token) => {
+      const newReq = request.clone({
+        headers: request.headers.set("Authorization", `Bearer ${token}`)
+      });
+      return next(newReq);
+    }));
+  }
+}
+function logoutAndRedirect(error, authService, router, messageService) {
+  authService.setRefreshingToken(false);
+  authService.clearTokens();
+  messageService.add({
+    severity: "error",
+    summary: "Session Expired",
+    detail: "Your session has expired. Please log in again."
+  });
+  router.navigate(["/auth/login"]);
+  return throwError(() => error);
+}
+
+// src/environments/environment.ts
+var environment = {
+  production: false,
+  siteTitle: "\u5F8C\u53F0\u6E2C\u8A66\u7AD9-\u82F1\u611B\u624B\u4F5C",
+  basePath: "https://ying-ai-backend.onrender.com",
+  apiUrl: "https://ying-ai-backend.onrender.com"
+};
+
+// src/app/app.config.ts
+var appConfig = {
+  providers: [
+    provideZoneChangeDetection({ eventCoalescing: true }),
+    provideRouter(routes),
+    provideAnimationsAsync(),
+    provideHttpClient(withInterceptors([authInterceptor])),
+    { provide: BASE_PATH, useValue: environment.basePath },
+    MessageService
+    // Provide MessageService globally for the interceptor
+  ]
+};
 
 // node_modules/primeng/fesm2022/primeng-sidebar.mjs
 var _c04 = ["*"];
@@ -4269,313 +4580,6 @@ var AppConfigComponent = class _AppConfigComponent {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppConfigComponent, { className: "AppConfigComponent", filePath: "src/app/layout/config/app.config.component.ts", lineNumber: 9 });
 })();
 
-// src/app/layout/app.footer.component.ts
-var AppFooterComponent = class _AppFooterComponent {
-  layoutService;
-  constructor(layoutService) {
-    this.layoutService = layoutService;
-  }
-  static \u0275fac = function AppFooterComponent_Factory(__ngFactoryType__) {
-    return new (__ngFactoryType__ || _AppFooterComponent)(\u0275\u0275directiveInject(LayoutService));
-  };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppFooterComponent, selectors: [["app-footer"]], decls: 5, vars: 2, consts: [[1, "layout-footer"], ["alt", "Logo", "height", "20", 1, "mr-2", 3, "src"], [1, "font-medium", "ml-2"]], template: function AppFooterComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      \u0275\u0275elementStart(0, "div", 0);
-      \u0275\u0275element(1, "img", 1);
-      \u0275\u0275text(2, " by ");
-      \u0275\u0275elementStart(3, "span", 2);
-      \u0275\u0275text(4, "PrimeNG");
-      \u0275\u0275elementEnd()();
-    }
-    if (rf & 2) {
-      \u0275\u0275advance();
-      \u0275\u0275propertyInterpolate1("src", "assets/layout/images/", ctx.layoutService.config().colorScheme === "light" ? "logo-dark" : "logo-white", ".svg", \u0275\u0275sanitizeUrl);
-    }
-  }, encapsulation: 2 });
-};
-(() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppFooterComponent, { className: "AppFooterComponent", filePath: "src/app/layout/app.footer.component.ts", lineNumber: 8 });
-})();
-
-// src/app/layout/app.layout.component.ts
-var AppLayoutComponent = class _AppLayoutComponent {
-  layoutService;
-  renderer;
-  router;
-  overlayMenuOpenSubscription;
-  menuOutsideClickListener;
-  profileMenuOutsideClickListener;
-  appSidebar;
-  appTopbar;
-  constructor(layoutService, renderer, router) {
-    this.layoutService = layoutService;
-    this.renderer = renderer;
-    this.router = router;
-    this.overlayMenuOpenSubscription = this.layoutService.overlayOpen$.subscribe(() => {
-      if (!this.menuOutsideClickListener) {
-        this.menuOutsideClickListener = this.renderer.listen("document", "click", (event) => {
-          const isOutsideClicked = !(this.appSidebar.el.nativeElement.isSameNode(event.target) || this.appSidebar.el.nativeElement.contains(event.target) || this.appTopbar.menuButton.nativeElement.isSameNode(event.target) || this.appTopbar.menuButton.nativeElement.contains(event.target));
-          if (isOutsideClicked) {
-            this.hideMenu();
-          }
-        });
-      }
-      if (!this.profileMenuOutsideClickListener) {
-        this.profileMenuOutsideClickListener = this.renderer.listen("document", "click", (event) => {
-          const isOutsideClicked = !(this.appTopbar.menu.nativeElement.isSameNode(event.target) || this.appTopbar.menu.nativeElement.contains(event.target) || this.appTopbar.topbarMenuButton.nativeElement.isSameNode(event.target) || this.appTopbar.topbarMenuButton.nativeElement.contains(event.target));
-          if (isOutsideClicked) {
-            this.hideProfileMenu();
-          }
-        });
-      }
-      if (this.layoutService.state.staticMenuMobileActive) {
-        this.blockBodyScroll();
-      }
-    });
-    this.router.events.pipe(filter((event) => event instanceof NavigationEnd)).subscribe(() => {
-      this.hideMenu();
-      this.hideProfileMenu();
-    });
-  }
-  hideMenu() {
-    this.layoutService.state.overlayMenuActive = false;
-    this.layoutService.state.staticMenuMobileActive = false;
-    this.layoutService.state.menuHoverActive = false;
-    if (this.menuOutsideClickListener) {
-      this.menuOutsideClickListener();
-      this.menuOutsideClickListener = null;
-    }
-    this.unblockBodyScroll();
-  }
-  hideProfileMenu() {
-    this.layoutService.state.profileSidebarVisible = false;
-    if (this.profileMenuOutsideClickListener) {
-      this.profileMenuOutsideClickListener();
-      this.profileMenuOutsideClickListener = null;
-    }
-  }
-  blockBodyScroll() {
-    if (document.body.classList) {
-      document.body.classList.add("blocked-scroll");
-    } else {
-      document.body.className += " blocked-scroll";
-    }
-  }
-  unblockBodyScroll() {
-    if (document.body.classList) {
-      document.body.classList.remove("blocked-scroll");
-    } else {
-      document.body.className = document.body.className.replace(new RegExp("(^|\\b)" + "blocked-scroll".split(" ").join("|") + "(\\b|$)", "gi"), " ");
-    }
-  }
-  get containerClass() {
-    return {
-      "layout-theme-light": this.layoutService.config().colorScheme === "light",
-      "layout-theme-dark": this.layoutService.config().colorScheme === "dark",
-      "layout-overlay": this.layoutService.config().menuMode === "overlay",
-      "layout-static": this.layoutService.config().menuMode === "static",
-      "layout-static-inactive": this.layoutService.state.staticMenuDesktopInactive && this.layoutService.config().menuMode === "static",
-      "layout-overlay-active": this.layoutService.state.overlayMenuActive,
-      "layout-mobile-active": this.layoutService.state.staticMenuMobileActive,
-      "p-input-filled": this.layoutService.config().inputStyle === "filled",
-      "p-ripple-disabled": !this.layoutService.config().ripple
-    };
-  }
-  ngOnDestroy() {
-    if (this.overlayMenuOpenSubscription) {
-      this.overlayMenuOpenSubscription.unsubscribe();
-    }
-    if (this.menuOutsideClickListener) {
-      this.menuOutsideClickListener();
-    }
-  }
-  static \u0275fac = function AppLayoutComponent_Factory(__ngFactoryType__) {
-    return new (__ngFactoryType__ || _AppLayoutComponent)(\u0275\u0275directiveInject(LayoutService), \u0275\u0275directiveInject(Renderer2), \u0275\u0275directiveInject(Router));
-  };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppLayoutComponent, selectors: [["app-layout"]], viewQuery: function AppLayoutComponent_Query(rf, ctx) {
-    if (rf & 1) {
-      \u0275\u0275viewQuery(AppSidebarComponent, 5);
-      \u0275\u0275viewQuery(AppTopBarComponent, 5);
-    }
-    if (rf & 2) {
-      let _t;
-      \u0275\u0275queryRefresh(_t = \u0275\u0275loadQuery()) && (ctx.appSidebar = _t.first);
-      \u0275\u0275queryRefresh(_t = \u0275\u0275loadQuery()) && (ctx.appTopbar = _t.first);
-    }
-  }, decls: 10, vars: 1, consts: [[1, "layout-wrapper", 3, "ngClass"], [1, "layout-sidebar"], [1, "layout-main-container"], [1, "layout-main"], [1, "layout-mask"]], template: function AppLayoutComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      \u0275\u0275elementStart(0, "div", 0);
-      \u0275\u0275element(1, "app-topbar");
-      \u0275\u0275elementStart(2, "div", 1);
-      \u0275\u0275element(3, "app-sidebar");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(4, "div", 2)(5, "div", 3);
-      \u0275\u0275element(6, "router-outlet");
-      \u0275\u0275elementEnd();
-      \u0275\u0275element(7, "app-footer");
-      \u0275\u0275elementEnd();
-      \u0275\u0275element(8, "app-config")(9, "div", 4);
-      \u0275\u0275elementEnd();
-    }
-    if (rf & 2) {
-      \u0275\u0275property("ngClass", ctx.containerClass);
-    }
-  }, dependencies: [NgClass, RouterOutlet, AppConfigComponent, AppTopBarComponent, AppFooterComponent, AppSidebarComponent], encapsulation: 2 });
-};
-(() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppLayoutComponent, { className: "AppLayoutComponent", filePath: "src/app/layout/app.layout.component.ts", lineNumber: 12 });
-})();
-
-// src/app/core/components/home/home.component.ts
-var HomeComponent = class _HomeComponent {
-  static \u0275fac = function HomeComponent_Factory(__ngFactoryType__) {
-    return new (__ngFactoryType__ || _HomeComponent)();
-  };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 2, vars: 0, consts: [[1, "text-center", "pt-[35vh]"]], template: function HomeComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      \u0275\u0275elementStart(0, "div", 0);
-      \u0275\u0275text(1, "\u8ACB\u900F\u904E\u5DE6\u5074\u9078\u55AE\u9078\u64C7\u529F\u80FD");
-      \u0275\u0275elementEnd();
-    }
-  }, styles: ["\n\n[_nghost-%COMP%] {\n  display: block;\n}\n/*# sourceMappingURL=home.component.css.map */"] });
-};
-(() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(HomeComponent, { className: "HomeComponent", filePath: "src/app/core/components/home/home.component.ts", lineNumber: 10 });
-})();
-
-// src/app/app.routes.ts
-var routes = [
-  {
-    path: "",
-    component: AppLayoutComponent,
-    children: [
-      { path: "", component: HomeComponent },
-      {
-        path: "products",
-        loadChildren: () => import("./chunk-OQZWP74A.js").then((m) => m.ProductsModule)
-      },
-      {
-        path: "order",
-        loadChildren: () => import("./chunk-5RNYPQA5.js").then((m) => m.OrderModule)
-      },
-      {
-        path: "contents",
-        loadChildren: () => import("./chunk-F7KI3OY2.js").then((m) => m.ContentsModule)
-      },
-      {
-        path: "settings",
-        loadChildren: () => import("./chunk-XML4CNAI.js").then((m) => m.SettingsModule)
-      },
-      {
-        path: "accounts",
-        loadChildren: () => import("./chunk-XJ25YW3P.js").then((m) => m.AccountsModule)
-      },
-      {
-        path: "users",
-        loadChildren: () => import("./chunk-I7S6KPMX.js").then((m) => m.UsersModule)
-      },
-      {
-        path: "menus",
-        loadChildren: () => import("./chunk-NZT2KRMG.js").then((m) => m.MenusModule)
-      }
-    ]
-  },
-  {
-    path: "auth",
-    loadChildren: () => import("./chunk-VRY7EFBE.js").then((m) => m.AuthModule)
-  }
-  // {
-  //   path: 'editor',
-  //   component: EditorIndexComponent,
-  // },
-];
-
-// src/app/core/interceptors/auth.interceptor.ts
-var authInterceptor = (req, next) => {
-  const router = inject(Router);
-  const messageService = inject(MessageService);
-  const authService = inject(AuthService);
-  const isAuthRequest = req.url.includes("/api/admin/auth/login") || req.url.includes("/api/admin/auth/refresh-token");
-  let authReq = req;
-  const token = authService.getAccessToken();
-  if (token && !isAuthRequest) {
-    authReq = req.clone({
-      headers: req.headers.set("Authorization", `Bearer ${token}`)
-    });
-  }
-  return next(authReq).pipe(catchError((error) => {
-    if (error.status === 401) {
-      if (!isAuthRequest) {
-        return handleUnauthorizedError(authReq, next, error, authService, router, messageService);
-      } else {
-        return logoutAndRedirect(error, authService, router, messageService);
-      }
-    }
-    return throwError(() => error);
-  }));
-};
-function handleUnauthorizedError(request, next, error, authService, router, messageService) {
-  if (!authService.isRefreshingTokenInProgress()) {
-    authService.setRefreshingToken(true);
-    authService.resetRefreshTokenSubject();
-    return authService.refreshToken().pipe(
-      // Switch to new observable after token refresh completes
-      switchMap(() => {
-        authService.setRefreshingToken(false);
-        const newToken = authService.getAccessToken();
-        if (newToken) {
-          request = request.clone({
-            headers: request.headers.set("Authorization", `Bearer ${newToken}`)
-          });
-        }
-        return next(request);
-      }),
-      // Handle errors during token refresh
-      catchError((refreshError) => {
-        return logoutAndRedirect(refreshError, authService, router, messageService);
-      })
-    );
-  } else {
-    return authService.getRefreshTokenSubject().pipe(filter((token) => token !== null), take(1), switchMap((token) => {
-      const newReq = request.clone({
-        headers: request.headers.set("Authorization", `Bearer ${token}`)
-      });
-      return next(newReq);
-    }));
-  }
-}
-function logoutAndRedirect(error, authService, router, messageService) {
-  authService.setRefreshingToken(false);
-  authService.clearTokens();
-  messageService.add({
-    severity: "error",
-    summary: "Session Expired",
-    detail: "Your session has expired. Please log in again."
-  });
-  router.navigate(["/auth/login"]);
-  return throwError(() => error);
-}
-
-// src/environments/environment.ts
-var environment = {
-  production: false,
-  basePath: "https://ying-ai-backend.onrender.com",
-  apiUrl: "https://ying-ai-backend.onrender.com"
-};
-
-// src/app/app.config.ts
-var appConfig = {
-  providers: [
-    provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes),
-    provideAnimationsAsync(),
-    provideHttpClient(withInterceptors([authInterceptor])),
-    { provide: BASE_PATH, useValue: environment.basePath },
-    MessageService
-    // Provide MessageService globally for the interceptor
-  ]
-};
-
 // src/app/layout/config/config.module.ts
 var AppConfigModule = class _AppConfigModule {
   static \u0275fac = function AppConfigModule_Factory(__ngFactoryType__) {
@@ -4615,18 +4619,22 @@ var AppLayoutModule = class _AppLayoutModule {
 
 // src/app/app.component.ts
 var AppComponent = class _AppComponent {
-  title = "ying-ai-handmade-backstage";
+  titleService = inject(Title);
+  title = environment.siteTitle;
+  constructor() {
+    this.titleService.setTitle(this.title);
+  }
   static \u0275fac = function AppComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _AppComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: true, features: [\u0275\u0275ProvidersFeature([MessageService]), \u0275\u0275StandaloneFeature], decls: 2, vars: 0, template: function AppComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: true, features: [\u0275\u0275ProvidersFeature([MessageService, ConfirmationService]), \u0275\u0275StandaloneFeature], decls: 2, vars: 0, template: function AppComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275element(0, "router-outlet")(1, "p-toast");
     }
   }, dependencies: [RouterOutlet, AppLayoutModule, ToastModule, Toast] });
 };
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppComponent, { className: "AppComponent", filePath: "src/app/app.component.ts", lineNumber: 15 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppComponent, { className: "AppComponent", filePath: "src/app/app.component.ts", lineNumber: 17 });
 })();
 
 // src/main.ts
