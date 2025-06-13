@@ -1,7 +1,7 @@
 import {
   AuthService
 } from "./chunk-KTNVQTIR.js";
-import "./chunk-SCDWBYXY.js";
+import "./chunk-C3WQ4M3N.js";
 import "./chunk-DT3GFCNP.js";
 import "./chunk-VUC5HP7I.js";
 import "./chunk-NL6JKAZG.js";
@@ -2732,11 +2732,11 @@ var routes = [
       { path: "", component: HomeComponent },
       {
         path: "products",
-        loadChildren: () => import("./chunk-DUOVQRPD.js").then((m) => m.ProductsModule)
+        loadChildren: () => import("./chunk-YGTLJX5X.js").then((m) => m.ProductsModule)
       },
       {
         path: "order",
-        loadChildren: () => import("./chunk-6JABGY2U.js").then((m) => m.OrderModule)
+        loadChildren: () => import("./chunk-VMITTUI5.js").then((m) => m.OrderModule)
       },
       {
         path: "contents",
@@ -2744,7 +2744,7 @@ var routes = [
       },
       {
         path: "settings",
-        loadChildren: () => import("./chunk-YO5NQ5I4.js").then((m) => m.SettingsModule)
+        loadChildren: () => import("./chunk-CY7NBP5G.js").then((m) => m.SettingsModule)
       },
       {
         path: "accounts",
@@ -2756,7 +2756,7 @@ var routes = [
       },
       {
         path: "menus",
-        loadChildren: () => import("./chunk-CACK52KI.js").then((m) => m.MenusModule)
+        loadChildren: () => import("./chunk-ZWY64744.js").then((m) => m.MenusModule)
       }
     ]
   },
@@ -2844,13 +2844,26 @@ var environment = {
   apiUrl: "https://ying-ai-backend.onrender.com"
 };
 
+// src/app/core/interceptors/error.interceptor.ts
+var errorInterceptor = (req, next) => {
+  const router = inject(Router);
+  const authService = inject(AuthService);
+  return next(req).pipe(catchError((error) => {
+    console.error("Error occurred:", error);
+    if (error.status === 401) {
+      return throwError(() => error);
+    }
+    return throwError(() => error.error);
+  }));
+};
+
 // src/app/app.config.ts
 var appConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     provideAnimationsAsync(),
-    provideHttpClient(withInterceptors([authInterceptor])),
+    provideHttpClient(withInterceptors([authInterceptor, errorInterceptor])),
     { provide: BASE_PATH, useValue: environment.basePath },
     MessageService
     // Provide MessageService globally for the interceptor

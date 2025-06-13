@@ -135,6 +135,51 @@ var AdminMenusService = class _AdminMenusService extends BaseService {
     super(basePath, configuration);
     this.httpClient = httpClient;
   }
+  apiAdminMenusDelete(apiAdminMenusDeleteRequest, authorization, observe = "body", reportProgress = false, options) {
+    if (apiAdminMenusDeleteRequest === null || apiAdminMenusDeleteRequest === void 0) {
+      throw new Error("Required parameter apiAdminMenusDeleteRequest was null or undefined when calling apiAdminMenusDelete.");
+    }
+    let localVarHeaders = this.defaultHeaders;
+    if (authorization !== void 0 && authorization !== null) {
+      localVarHeaders = localVarHeaders.set("authorization", String(authorization));
+    }
+    const localVarHttpHeaderAcceptSelected = options?.httpHeaderAccept ?? this.configuration.selectHeaderAccept([
+      "application/json"
+    ]);
+    if (localVarHttpHeaderAcceptSelected !== void 0) {
+      localVarHeaders = localVarHeaders.set("Accept", localVarHttpHeaderAcceptSelected);
+    }
+    const localVarHttpContext = options?.context ?? new HttpContext();
+    const localVarTransferCache = options?.transferCache ?? true;
+    const consumes = [
+      "application/json"
+    ];
+    const httpContentTypeSelected = this.configuration.selectHeaderContentType(consumes);
+    if (httpContentTypeSelected !== void 0) {
+      localVarHeaders = localVarHeaders.set("Content-Type", httpContentTypeSelected);
+    }
+    let responseType_ = "json";
+    if (localVarHttpHeaderAcceptSelected) {
+      if (localVarHttpHeaderAcceptSelected.startsWith("text")) {
+        responseType_ = "text";
+      } else if (this.configuration.isJsonMime(localVarHttpHeaderAcceptSelected)) {
+        responseType_ = "json";
+      } else {
+        responseType_ = "blob";
+      }
+    }
+    let localVarPath = `/api/admin/menus/`;
+    return this.httpClient.request("delete", `${this.configuration.basePath}${localVarPath}`, {
+      context: localVarHttpContext,
+      body: apiAdminMenusDeleteRequest,
+      responseType: responseType_,
+      withCredentials: this.configuration.withCredentials,
+      headers: localVarHeaders,
+      observe,
+      transferCache: localVarTransferCache,
+      reportProgress
+    });
+  }
   apiAdminMenusGet(authorization, page, limit, menuType, isActive, parentId, level, search, observe = "body", reportProgress = false, options) {
     let localVarQueryParameters = new HttpParams({ encoder: this.encoder });
     localVarQueryParameters = this.addToHttpParams(localVarQueryParameters, page, "page");
@@ -1081,4 +1126,4 @@ export {
   AdminOrderService,
   CategoryService
 };
-//# sourceMappingURL=chunk-SCDWBYXY.js.map
+//# sourceMappingURL=chunk-C3WQ4M3N.js.map

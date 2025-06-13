@@ -1,6 +1,6 @@
 import {
   CategoryService
-} from "./chunk-SCDWBYXY.js";
+} from "./chunk-C3WQ4M3N.js";
 import "./chunk-DT3GFCNP.js";
 import "./chunk-VUC5HP7I.js";
 import "./chunk-NL6JKAZG.js";
@@ -346,25 +346,25 @@ var _c12 = () => ({ height: "320px" });
 var _c2 = (a0) => ({ "exceeded-progress-bar": a0 });
 function ProductFormComponent_Conditional_5_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 3)(1, "label", 24);
+    \u0275\u0275elementStart(0, "div", 3)(1, "label", 26);
     \u0275\u0275text(2, "\u4E0A\u67B6\u72C0\u614B");
     \u0275\u0275elementEnd();
-    \u0275\u0275element(3, "p-inputSwitch", 25);
+    \u0275\u0275element(3, "p-inputSwitch", 27);
     \u0275\u0275elementEnd();
   }
 }
 function ProductFormComponent_small_10_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "small", 26);
+    \u0275\u0275elementStart(0, "small", 28);
     \u0275\u0275text(1, " Name is required and must be at least 3 characters long ");
     \u0275\u0275elementEnd();
   }
 }
 function ProductFormComponent_For_16_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 10)(1, "div", 27);
-    \u0275\u0275element(2, "p-checkbox", 28);
-    \u0275\u0275elementStart(3, "label", 29);
+    \u0275\u0275elementStart(0, "div", 10)(1, "div", 29);
+    \u0275\u0275element(2, "p-checkbox", 30);
+    \u0275\u0275elementStart(3, "label", 31);
     \u0275\u0275text(4);
     \u0275\u0275elementEnd()()();
   }
@@ -380,31 +380,31 @@ function ProductFormComponent_For_16_Template(rf, ctx) {
     \u0275\u0275textInterpolate(item_r1.name);
   }
 }
-function ProductFormComponent_small_21_Template(rf, ctx) {
+function ProductFormComponent_small_25_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "small", 26);
+    \u0275\u0275elementStart(0, "small", 28);
     \u0275\u0275text(1, " Description is required ");
     \u0275\u0275elementEnd();
   }
 }
-function ProductFormComponent_Conditional_24_For_11_Conditional_4_Template(rf, ctx) {
+function ProductFormComponent_Conditional_28_For_11_Conditional_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r3 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "button", 44);
-    \u0275\u0275listener("click", function ProductFormComponent_Conditional_24_For_11_Conditional_4_Template_button_click_0_listener() {
+    \u0275\u0275elementStart(0, "button", 46);
+    \u0275\u0275listener("click", function ProductFormComponent_Conditional_28_For_11_Conditional_4_Template_button_click_0_listener() {
       \u0275\u0275restoreView(_r3);
-      const \u0275$index_82_r4 = \u0275\u0275nextContext().$index;
+      const \u0275$index_89_r4 = \u0275\u0275nextContext().$index;
       const ctx_r4 = \u0275\u0275nextContext(2);
-      return \u0275\u0275resetView(ctx_r4.removeProductOption(\u0275$index_82_r4));
+      return \u0275\u0275resetView(ctx_r4.removeProductOption(\u0275$index_89_r4));
     });
     \u0275\u0275elementEnd();
   }
 }
-function ProductFormComponent_Conditional_24_For_11_Conditional_5_Template(rf, ctx) {
+function ProductFormComponent_Conditional_28_For_11_Conditional_5_Template(rf, ctx) {
   if (rf & 1) {
     const _r6 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "button", 45);
-    \u0275\u0275listener("click", function ProductFormComponent_Conditional_24_For_11_Conditional_5_Template_button_click_0_listener() {
+    \u0275\u0275elementStart(0, "button", 47);
+    \u0275\u0275listener("click", function ProductFormComponent_Conditional_28_For_11_Conditional_5_Template_button_click_0_listener() {
       \u0275\u0275restoreView(_r6);
       const ctx_r4 = \u0275\u0275nextContext(3);
       return \u0275\u0275resetView(ctx_r4.addProductOptionFC());
@@ -412,97 +412,97 @@ function ProductFormComponent_Conditional_24_For_11_Conditional_5_Template(rf, c
     \u0275\u0275elementEnd();
   }
 }
-function ProductFormComponent_Conditional_24_For_11_For_8_Conditional_3_Template(rf, ctx) {
+function ProductFormComponent_Conditional_28_For_11_For_8_Conditional_3_Template(rf, ctx) {
   if (rf & 1) {
     const _r7 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "button", 50);
-    \u0275\u0275listener("click", function ProductFormComponent_Conditional_24_For_11_For_8_Conditional_3_Template_button_click_0_listener() {
+    \u0275\u0275elementStart(0, "button", 52);
+    \u0275\u0275listener("click", function ProductFormComponent_Conditional_28_For_11_For_8_Conditional_3_Template_button_click_0_listener() {
       \u0275\u0275restoreView(_r7);
-      const \u0275$index_99_r8 = \u0275\u0275nextContext().$index;
-      const \u0275$index_82_r4 = \u0275\u0275nextContext().$index;
+      const \u0275$index_106_r8 = \u0275\u0275nextContext().$index;
+      const \u0275$index_89_r4 = \u0275\u0275nextContext().$index;
       const ctx_r4 = \u0275\u0275nextContext(2);
-      return \u0275\u0275resetView(ctx_r4.removeOption(\u0275$index_82_r4, \u0275$index_99_r8));
+      return \u0275\u0275resetView(ctx_r4.removeOption(\u0275$index_89_r4, \u0275$index_106_r8));
     });
     \u0275\u0275elementEnd();
   }
 }
-function ProductFormComponent_Conditional_24_For_11_For_8_Conditional_4_Template(rf, ctx) {
+function ProductFormComponent_Conditional_28_For_11_For_8_Conditional_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r9 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "button", 51);
-    \u0275\u0275listener("click", function ProductFormComponent_Conditional_24_For_11_For_8_Conditional_4_Template_button_click_0_listener() {
+    \u0275\u0275elementStart(0, "button", 53);
+    \u0275\u0275listener("click", function ProductFormComponent_Conditional_28_For_11_For_8_Conditional_4_Template_button_click_0_listener() {
       \u0275\u0275restoreView(_r9);
-      const \u0275$index_82_r4 = \u0275\u0275nextContext(2).$index;
+      const \u0275$index_89_r4 = \u0275\u0275nextContext(2).$index;
       const ctx_r4 = \u0275\u0275nextContext(2);
-      return \u0275\u0275resetView(ctx_r4.addProductOptionOptionFC(\u0275$index_82_r4));
+      return \u0275\u0275resetView(ctx_r4.addProductOptionOptionFC(\u0275$index_89_r4));
     });
     \u0275\u0275elementEnd();
   }
 }
-function ProductFormComponent_Conditional_24_For_11_For_8_Template(rf, ctx) {
+function ProductFormComponent_Conditional_28_For_11_For_8_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 43);
-    \u0275\u0275element(1, "input", 46);
-    \u0275\u0275elementStart(2, "div", 47);
-    \u0275\u0275template(3, ProductFormComponent_Conditional_24_For_11_For_8_Conditional_3_Template, 1, 0, "button", 48)(4, ProductFormComponent_Conditional_24_For_11_For_8_Conditional_4_Template, 1, 0, "button", 49);
+    \u0275\u0275elementStart(0, "div", 45);
+    \u0275\u0275element(1, "input", 48);
+    \u0275\u0275elementStart(2, "div", 49);
+    \u0275\u0275template(3, ProductFormComponent_Conditional_28_For_11_For_8_Conditional_3_Template, 1, 0, "button", 50)(4, ProductFormComponent_Conditional_28_For_11_For_8_Conditional_4_Template, 1, 0, "button", 51);
     \u0275\u0275elementEnd()();
   }
   if (rf & 2) {
-    const \u0275$index_99_r8 = ctx.$index;
+    const \u0275$index_106_r8 = ctx.$index;
     const $count_r10 = ctx.$count;
-    const \u0275$count_99_r11 = ctx.$count;
-    \u0275\u0275propertyInterpolate("formGroupName", \u0275$index_99_r8);
+    const \u0275$count_106_r11 = ctx.$count;
+    \u0275\u0275propertyInterpolate("formGroupName", \u0275$index_106_r8);
     \u0275\u0275advance(3);
     \u0275\u0275conditional($count_r10 > 1 ? 3 : -1);
     \u0275\u0275advance();
-    \u0275\u0275conditional(\u0275$index_99_r8 === \u0275$count_99_r11 - 1 ? 4 : -1);
+    \u0275\u0275conditional(\u0275$index_106_r8 === \u0275$count_106_r11 - 1 ? 4 : -1);
   }
 }
-function ProductFormComponent_Conditional_24_For_11_small_9_Template(rf, ctx) {
+function ProductFormComponent_Conditional_28_For_11_small_9_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "small", 26);
+    \u0275\u0275elementStart(0, "small", 28);
     \u0275\u0275text(1, " \u9078\u9805\u4E0D\u53EF\u4EE5\u6709\u91CD\u8907\u7684\u9805\u76EE ");
     \u0275\u0275elementEnd();
   }
 }
-function ProductFormComponent_Conditional_24_For_11_Template(rf, ctx) {
+function ProductFormComponent_Conditional_28_For_11_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "tr", 36)(1, "td", 37)(2, "div", 38);
-    \u0275\u0275element(3, "input", 39);
-    \u0275\u0275template(4, ProductFormComponent_Conditional_24_For_11_Conditional_4_Template, 1, 0, "button", 40)(5, ProductFormComponent_Conditional_24_For_11_Conditional_5_Template, 1, 0, "button", 41);
+    \u0275\u0275elementStart(0, "tr", 38)(1, "td", 39)(2, "div", 40);
+    \u0275\u0275element(3, "input", 41);
+    \u0275\u0275template(4, ProductFormComponent_Conditional_28_For_11_Conditional_4_Template, 1, 0, "button", 42)(5, ProductFormComponent_Conditional_28_For_11_Conditional_5_Template, 1, 0, "button", 43);
     \u0275\u0275elementEnd()();
-    \u0275\u0275elementStart(6, "td", 42);
-    \u0275\u0275repeaterCreate(7, ProductFormComponent_Conditional_24_For_11_For_8_Template, 5, 3, "div", 43, \u0275\u0275repeaterTrackByIndex);
-    \u0275\u0275template(9, ProductFormComponent_Conditional_24_For_11_small_9_Template, 2, 0, "small", 7);
+    \u0275\u0275elementStart(6, "td", 44);
+    \u0275\u0275repeaterCreate(7, ProductFormComponent_Conditional_28_For_11_For_8_Template, 5, 3, "div", 45, \u0275\u0275repeaterTrackByIndex);
+    \u0275\u0275template(9, ProductFormComponent_Conditional_28_For_11_small_9_Template, 2, 0, "small", 7);
     \u0275\u0275elementEnd()();
   }
   if (rf & 2) {
     let tmp_16_0;
-    const \u0275$index_82_r4 = ctx.$index;
+    const \u0275$index_89_r4 = ctx.$index;
     const $count_r12 = ctx.$count;
-    const \u0275$count_82_r13 = ctx.$count;
+    const \u0275$count_89_r13 = ctx.$count;
     const ctx_r4 = \u0275\u0275nextContext(2);
-    \u0275\u0275propertyInterpolate("formGroupName", \u0275$index_82_r4);
+    \u0275\u0275propertyInterpolate("formGroupName", \u0275$index_89_r4);
     \u0275\u0275advance(4);
     \u0275\u0275conditional($count_r12 > 1 ? 4 : -1);
     \u0275\u0275advance();
-    \u0275\u0275conditional(\u0275$index_82_r4 === \u0275$count_82_r13 - 1 && ctx_r4.productOptionsGroup.length < 2 ? 5 : -1);
+    \u0275\u0275conditional(\u0275$index_89_r4 === \u0275$count_89_r13 - 1 && ctx_r4.productOptionsGroup.length < 2 ? 5 : -1);
     \u0275\u0275advance(2);
-    \u0275\u0275repeater(ctx_r4.getOptions(\u0275$index_82_r4).controls);
+    \u0275\u0275repeater(ctx_r4.getOptions(\u0275$index_89_r4).controls);
     \u0275\u0275advance(2);
-    \u0275\u0275property("ngIf", (tmp_16_0 = ctx_r4.getOptions(\u0275$index_82_r4)) == null ? null : tmp_16_0.errors == null ? null : tmp_16_0.errors["duplicateOptions"]);
+    \u0275\u0275property("ngIf", (tmp_16_0 = ctx_r4.getOptions(\u0275$index_89_r4)) == null ? null : tmp_16_0.errors == null ? null : tmp_16_0.errors["duplicateOptions"]);
   }
 }
-function ProductFormComponent_Conditional_24_Conditional_12_For_11_Template(rf, ctx) {
+function ProductFormComponent_Conditional_28_Conditional_12_For_11_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "tr", 32)(1, "td", 37);
+    \u0275\u0275elementStart(0, "tr", 34)(1, "td", 39);
     \u0275\u0275text(2);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(3, "td", 53)(4, "div", 54);
-    \u0275\u0275element(5, "p-inputNumber", 55);
+    \u0275\u0275elementStart(3, "td", 55)(4, "div", 56);
+    \u0275\u0275element(5, "p-inputNumber", 57);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(6, "div", 54);
-    \u0275\u0275element(7, "p-inputNumber", 56);
+    \u0275\u0275elementStart(6, "div", 56);
+    \u0275\u0275element(7, "p-inputNumber", 58);
     \u0275\u0275elementEnd()()();
   }
   if (rf & 2) {
@@ -517,16 +517,16 @@ function ProductFormComponent_Conditional_24_Conditional_12_For_11_Template(rf, 
     \u0275\u0275property("formControl", ctx_r4.fgGetstock(item_r14))("min", 0)("showButtons", true);
   }
 }
-function ProductFormComponent_Conditional_24_Conditional_12_Template(rf, ctx) {
+function ProductFormComponent_Conditional_28_Conditional_12_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "table", 30)(1, "thead", 31)(2, "tr", 32)(3, "th", 33)(4, "div", 34);
+    \u0275\u0275elementStart(0, "table", 32)(1, "thead", 33)(2, "tr", 34)(3, "th", 35)(4, "div", 36);
     \u0275\u0275text(5, "\u898F\u683C");
     \u0275\u0275elementEnd()();
-    \u0275\u0275elementStart(6, "th", 33)(7, "div", 34);
+    \u0275\u0275elementStart(6, "th", 35)(7, "div", 36);
     \u0275\u0275text(8, "\u8CC7\u8A0A");
     \u0275\u0275elementEnd()()()();
-    \u0275\u0275elementStart(9, "tbody", 52);
-    \u0275\u0275repeaterCreate(10, ProductFormComponent_Conditional_24_Conditional_12_For_11_Template, 8, 7, "tr", 32, \u0275\u0275repeaterTrackByIndex);
+    \u0275\u0275elementStart(9, "tbody", 54);
+    \u0275\u0275repeaterCreate(10, ProductFormComponent_Conditional_28_Conditional_12_For_11_Template, 8, 7, "tr", 34, \u0275\u0275repeaterTrackByIndex);
     \u0275\u0275elementEnd()();
   }
   if (rf & 2) {
@@ -535,18 +535,18 @@ function ProductFormComponent_Conditional_24_Conditional_12_Template(rf, ctx) {
     \u0275\u0275repeater(ctx_r4.productVariantsGroup);
   }
 }
-function ProductFormComponent_Conditional_24_Template(rf, ctx) {
+function ProductFormComponent_Conditional_28_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "table", 30)(1, "thead", 31)(2, "tr", 32)(3, "th", 33)(4, "div", 34);
+    \u0275\u0275elementStart(0, "table", 32)(1, "thead", 33)(2, "tr", 34)(3, "th", 35)(4, "div", 36);
     \u0275\u0275text(5, "\u898F\u683C");
     \u0275\u0275elementEnd()();
-    \u0275\u0275elementStart(6, "th", 33)(7, "div", 34);
+    \u0275\u0275elementStart(6, "th", 35)(7, "div", 36);
     \u0275\u0275text(8, "\u9078\u9805");
     \u0275\u0275elementEnd()()()();
-    \u0275\u0275elementStart(9, "tbody", 35);
-    \u0275\u0275repeaterCreate(10, ProductFormComponent_Conditional_24_For_11_Template, 10, 4, "tr", 36, \u0275\u0275repeaterTrackByIndex);
+    \u0275\u0275elementStart(9, "tbody", 37);
+    \u0275\u0275repeaterCreate(10, ProductFormComponent_Conditional_28_For_11_Template, 10, 4, "tr", 38, \u0275\u0275repeaterTrackByIndex);
     \u0275\u0275elementEnd()();
-    \u0275\u0275template(12, ProductFormComponent_Conditional_24_Conditional_12_Template, 12, 0, "table", 30);
+    \u0275\u0275template(12, ProductFormComponent_Conditional_28_Conditional_12_Template, 12, 0, "table", 32);
   }
   if (rf & 2) {
     const ctx_r4 = \u0275\u0275nextContext();
@@ -556,33 +556,33 @@ function ProductFormComponent_Conditional_24_Template(rf, ctx) {
     \u0275\u0275conditional(ctx_r4.productVariantsGroup.length > 0 ? 12 : -1);
   }
 }
-function ProductFormComponent_Conditional_25_small_4_Template(rf, ctx) {
+function ProductFormComponent_Conditional_29_small_4_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "small", 26);
+    \u0275\u0275elementStart(0, "small", 28);
     \u0275\u0275text(1, " \u50F9\u683C\u9700\u5927\u65BC 0 ");
     \u0275\u0275elementEnd();
   }
 }
-function ProductFormComponent_Conditional_25_small_9_Template(rf, ctx) {
+function ProductFormComponent_Conditional_29_small_9_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "small", 26);
+    \u0275\u0275elementStart(0, "small", 28);
     \u0275\u0275text(1, " \u5EAB\u5B58\u9700\u5927\u65BC 0 ");
     \u0275\u0275elementEnd();
   }
 }
-function ProductFormComponent_Conditional_25_Template(rf, ctx) {
+function ProductFormComponent_Conditional_29_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 4)(1, "label", 57);
+    \u0275\u0275elementStart(0, "div", 4)(1, "label", 59);
     \u0275\u0275text(2, "\u50F9\u683C");
     \u0275\u0275elementEnd();
-    \u0275\u0275element(3, "p-inputNumber", 58);
-    \u0275\u0275template(4, ProductFormComponent_Conditional_25_small_4_Template, 2, 0, "small", 7);
+    \u0275\u0275element(3, "p-inputNumber", 60);
+    \u0275\u0275template(4, ProductFormComponent_Conditional_29_small_4_Template, 2, 0, "small", 7);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(5, "div", 4)(6, "label", 59);
+    \u0275\u0275elementStart(5, "div", 4)(6, "label", 61);
     \u0275\u0275text(7, "\u5EAB\u5B58");
     \u0275\u0275elementEnd();
-    \u0275\u0275element(8, "p-inputNumber", 60);
-    \u0275\u0275template(9, ProductFormComponent_Conditional_25_small_9_Template, 2, 0, "small", 7);
+    \u0275\u0275element(8, "p-inputNumber", 62);
+    \u0275\u0275template(9, ProductFormComponent_Conditional_29_small_9_Template, 2, 0, "small", 7);
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
@@ -599,30 +599,30 @@ function ProductFormComponent_Conditional_25_Template(rf, ctx) {
     \u0275\u0275property("ngIf", ((tmp_6_0 = ctx_r4.productForm.get("stock")) == null ? null : tmp_6_0.invalid) && ((tmp_6_0 = ctx_r4.productForm.get("stock")) == null ? null : tmp_6_0.touched));
   }
 }
-function ProductFormComponent_ng_template_31_Template(rf, ctx) {
+function ProductFormComponent_ng_template_35_Template(rf, ctx) {
   if (rf & 1) {
     const _r15 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "div", 61)(1, "div", 62)(2, "p-button", 63);
-    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_31_Template_p_button_onClick_2_listener($event) {
+    \u0275\u0275elementStart(0, "div", 63)(1, "div", 64)(2, "p-button", 65);
+    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_35_Template_p_button_onClick_2_listener($event) {
       const chooseCallback_r16 = \u0275\u0275restoreView(_r15).chooseCallback;
       const ctx_r4 = \u0275\u0275nextContext();
       return \u0275\u0275resetView(ctx_r4.choose($event, chooseCallback_r16));
     });
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(3, "p-button", 64);
-    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_31_Template_p_button_onClick_3_listener() {
+    \u0275\u0275elementStart(3, "p-button", 66);
+    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_35_Template_p_button_onClick_3_listener() {
       const uploadCallback_r17 = \u0275\u0275restoreView(_r15).uploadCallback;
       const ctx_r4 = \u0275\u0275nextContext();
       return \u0275\u0275resetView(ctx_r4.uploadEvent(uploadCallback_r17));
     });
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(4, "p-button", 65);
-    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_31_Template_p_button_onClick_4_listener() {
+    \u0275\u0275elementStart(4, "p-button", 67);
+    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_35_Template_p_button_onClick_4_listener() {
       const clearCallback_r18 = \u0275\u0275restoreView(_r15).clearCallback;
       return \u0275\u0275resetView(clearCallback_r18());
     });
     \u0275\u0275elementEnd()();
-    \u0275\u0275elementStart(5, "p-progressBar", 66)(6, "span", 67);
+    \u0275\u0275elementStart(5, "p-progressBar", 68)(6, "span", 69);
     \u0275\u0275text(7);
     \u0275\u0275elementEnd()()();
   }
@@ -641,21 +641,21 @@ function ProductFormComponent_ng_template_31_Template(rf, ctx) {
     \u0275\u0275textInterpolate1("", ctx_r4.totalSize, "B / 1Mb");
   }
 }
-function ProductFormComponent_ng_template_32_div_0_div_4_Template(rf, ctx) {
+function ProductFormComponent_ng_template_36_div_0_div_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r20 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "div", 71)(1, "div");
-    \u0275\u0275element(2, "img", 72);
+    \u0275\u0275elementStart(0, "div", 73)(1, "div");
+    \u0275\u0275element(2, "img", 74);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(3, "span", 73);
+    \u0275\u0275elementStart(3, "span", 75);
     \u0275\u0275text(4);
     \u0275\u0275elementEnd();
     \u0275\u0275elementStart(5, "div");
     \u0275\u0275text(6);
     \u0275\u0275elementEnd();
-    \u0275\u0275element(7, "p-badge", 74);
-    \u0275\u0275elementStart(8, "p-button", 75);
-    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_32_div_0_div_4_Template_p_button_onClick_8_listener($event) {
+    \u0275\u0275element(7, "p-badge", 76);
+    \u0275\u0275elementStart(8, "p-button", 77);
+    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_36_div_0_div_4_Template_p_button_onClick_8_listener($event) {
       const ctx_r20 = \u0275\u0275restoreView(_r20);
       const file_r22 = ctx_r20.$implicit;
       const i_r23 = ctx_r20.index;
@@ -678,13 +678,13 @@ function ProductFormComponent_ng_template_32_div_0_div_4_Template(rf, ctx) {
     \u0275\u0275property("outlined", true)("rounded", true);
   }
 }
-function ProductFormComponent_ng_template_32_div_0_Template(rf, ctx) {
+function ProductFormComponent_ng_template_36_div_0_Template(rf, ctx) {
   if (rf & 1) {
     \u0275\u0275elementStart(0, "div")(1, "h5");
     \u0275\u0275text(2, "\u5F85\u4E0A\u50B3");
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(3, "div", 69);
-    \u0275\u0275template(4, ProductFormComponent_ng_template_32_div_0_div_4_Template, 9, 6, "div", 70);
+    \u0275\u0275elementStart(3, "div", 71);
+    \u0275\u0275template(4, ProductFormComponent_ng_template_36_div_0_div_4_Template, 9, 6, "div", 72);
     \u0275\u0275elementEnd()();
   }
   if (rf & 2) {
@@ -693,11 +693,11 @@ function ProductFormComponent_ng_template_32_div_0_Template(rf, ctx) {
     \u0275\u0275property("ngForOf", files_r25);
   }
 }
-function ProductFormComponent_ng_template_32_div_1_For_5_Conditional_9_Template(rf, ctx) {
+function ProductFormComponent_ng_template_36_div_1_For_5_Conditional_9_Template(rf, ctx) {
   if (rf & 1) {
     const _r28 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "p-button", 79);
-    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_32_div_1_For_5_Conditional_9_Template_p_button_onClick_0_listener() {
+    \u0275\u0275elementStart(0, "p-button", 81);
+    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_36_div_1_For_5_Conditional_9_Template_p_button_onClick_0_listener() {
       \u0275\u0275restoreView(_r28);
       const file_r29 = \u0275\u0275nextContext().$implicit;
       return \u0275\u0275resetView(file_r29.isMain = false);
@@ -708,11 +708,11 @@ function ProductFormComponent_ng_template_32_div_1_For_5_Conditional_9_Template(
     \u0275\u0275property("outlined", true)("rounded", true);
   }
 }
-function ProductFormComponent_ng_template_32_div_1_For_5_Conditional_10_Template(rf, ctx) {
+function ProductFormComponent_ng_template_36_div_1_For_5_Conditional_10_Template(rf, ctx) {
   if (rf & 1) {
     const _r30 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "p-button", 80);
-    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_32_div_1_For_5_Conditional_10_Template_p_button_onClick_0_listener() {
+    \u0275\u0275elementStart(0, "p-button", 82);
+    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_36_div_1_For_5_Conditional_10_Template_p_button_onClick_0_listener() {
       \u0275\u0275restoreView(_r30);
       const file_r29 = \u0275\u0275nextContext().$implicit;
       return \u0275\u0275resetView(file_r29.isMain = true);
@@ -723,27 +723,27 @@ function ProductFormComponent_ng_template_32_div_1_For_5_Conditional_10_Template
     \u0275\u0275property("outlined", true)("rounded", true);
   }
 }
-function ProductFormComponent_ng_template_32_div_1_For_5_Template(rf, ctx) {
+function ProductFormComponent_ng_template_36_div_1_For_5_Template(rf, ctx) {
   if (rf & 1) {
     const _r26 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "div", 71)(1, "div");
-    \u0275\u0275element(2, "img", 72);
+    \u0275\u0275elementStart(0, "div", 73)(1, "div");
+    \u0275\u0275element(2, "img", 74);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(3, "span", 73);
+    \u0275\u0275elementStart(3, "span", 75);
     \u0275\u0275text(4);
     \u0275\u0275elementEnd();
     \u0275\u0275elementStart(5, "div");
     \u0275\u0275text(6);
     \u0275\u0275elementEnd();
-    \u0275\u0275element(7, "p-badge", 76);
-    \u0275\u0275elementStart(8, "p-button", 75);
-    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_32_div_1_For_5_Template_p_button_onClick_8_listener() {
-      const \u0275$index_241_r27 = \u0275\u0275restoreView(_r26).$index;
+    \u0275\u0275element(7, "p-badge", 78);
+    \u0275\u0275elementStart(8, "p-button", 77);
+    \u0275\u0275listener("onClick", function ProductFormComponent_ng_template_36_div_1_For_5_Template_p_button_onClick_8_listener() {
+      const \u0275$index_248_r27 = \u0275\u0275restoreView(_r26).$index;
       const ctx_r4 = \u0275\u0275nextContext(3);
-      return \u0275\u0275resetView(ctx_r4.removeUploadedFileCallback(\u0275$index_241_r27));
+      return \u0275\u0275resetView(ctx_r4.removeUploadedFileCallback(\u0275$index_248_r27));
     });
     \u0275\u0275elementEnd();
-    \u0275\u0275template(9, ProductFormComponent_ng_template_32_div_1_For_5_Conditional_9_Template, 1, 2, "p-button", 77)(10, ProductFormComponent_ng_template_32_div_1_For_5_Conditional_10_Template, 1, 2, "p-button", 78);
+    \u0275\u0275template(9, ProductFormComponent_ng_template_36_div_1_For_5_Conditional_9_Template, 1, 2, "p-button", 79)(10, ProductFormComponent_ng_template_36_div_1_For_5_Conditional_10_Template, 1, 2, "p-button", 80);
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
@@ -761,13 +761,13 @@ function ProductFormComponent_ng_template_32_div_1_For_5_Template(rf, ctx) {
     \u0275\u0275conditional(file_r29.isMain ? 9 : 10);
   }
 }
-function ProductFormComponent_ng_template_32_div_1_Template(rf, ctx) {
+function ProductFormComponent_ng_template_36_div_1_Template(rf, ctx) {
   if (rf & 1) {
     \u0275\u0275elementStart(0, "div")(1, "h5");
     \u0275\u0275text(2, "\u5DF2\u4E0A\u50B3");
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(3, "div", 69);
-    \u0275\u0275repeaterCreate(4, ProductFormComponent_ng_template_32_div_1_For_5_Template, 11, 7, "div", 71, \u0275\u0275repeaterTrackByIndex);
+    \u0275\u0275elementStart(3, "div", 71);
+    \u0275\u0275repeaterCreate(4, ProductFormComponent_ng_template_36_div_1_For_5_Template, 11, 7, "div", 73, \u0275\u0275repeaterTrackByIndex);
     \u0275\u0275elementEnd()();
   }
   if (rf & 2) {
@@ -776,9 +776,9 @@ function ProductFormComponent_ng_template_32_div_1_Template(rf, ctx) {
     \u0275\u0275repeater(ctx_r4.uploadedFiles);
   }
 }
-function ProductFormComponent_ng_template_32_Template(rf, ctx) {
+function ProductFormComponent_ng_template_36_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275template(0, ProductFormComponent_ng_template_32_div_0_Template, 5, 1, "div", 68)(1, ProductFormComponent_ng_template_32_div_1_Template, 6, 0, "div", 68);
+    \u0275\u0275template(0, ProductFormComponent_ng_template_36_div_0_Template, 5, 1, "div", 70)(1, ProductFormComponent_ng_template_36_div_1_Template, 6, 0, "div", 70);
   }
   if (rf & 2) {
     const files_r25 = ctx.$implicit;
@@ -788,20 +788,20 @@ function ProductFormComponent_ng_template_32_Template(rf, ctx) {
     \u0275\u0275property("ngIf", ctx_r4.uploadedFiles.length > 0);
   }
 }
-function ProductFormComponent_ng_template_33_Template(rf, ctx) {
+function ProductFormComponent_ng_template_37_Template(rf, ctx) {
 }
-function ProductFormComponent_ng_template_34_Conditional_0_Template(rf, ctx) {
+function ProductFormComponent_ng_template_38_Conditional_0_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 81);
-    \u0275\u0275element(1, "i", 82);
-    \u0275\u0275elementStart(2, "p", 83);
+    \u0275\u0275elementStart(0, "div", 83);
+    \u0275\u0275element(1, "i", 84);
+    \u0275\u0275elementStart(2, "p", 85);
     \u0275\u0275text(3, "\u62D6\u66F3\u5230\u6B64\u8655\u4E0A\u50B3\u6A94\u6848");
     \u0275\u0275elementEnd()();
   }
 }
-function ProductFormComponent_ng_template_34_Template(rf, ctx) {
+function ProductFormComponent_ng_template_38_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275template(0, ProductFormComponent_ng_template_34_Conditional_0_Template, 4, 0, "div", 81);
+    \u0275\u0275template(0, ProductFormComponent_ng_template_38_Conditional_0_Template, 4, 0, "div", 83);
   }
   if (rf & 2) {
     const ctx_r4 = \u0275\u0275nextContext();
@@ -862,6 +862,7 @@ var ProductFormComponent = class _ProductFormComponent {
     this.productForm = this.fb.group({
       name: ["", [Validators.required, Validators.minLength(3)]],
       description: [""],
+      summary: [""],
       price: [null, [Validators.min(0), Validators.required]],
       stock: [null, [Validators.min(0), Validators.required]],
       images: [[]],
@@ -1189,7 +1190,7 @@ var ProductFormComponent = class _ProductFormComponent {
   static \u0275fac = function ProductFormComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _ProductFormComponent)(\u0275\u0275directiveInject(FormBuilder), \u0275\u0275directiveInject(ActivatedRoute), \u0275\u0275directiveInject(Router), \u0275\u0275directiveInject(AdminProductService), \u0275\u0275directiveInject(MessageService), \u0275\u0275directiveInject(PrimeNGConfig), \u0275\u0275directiveInject(CategoryService));
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ProductFormComponent, selectors: [["app-product-form"]], features: [\u0275\u0275ProvidersFeature([MessageService])], decls: 38, vars: 16, consts: [[1, "card"], [1, "flex", "justify-content-between", "align-items-center", "mb-4"], [1, "p-fluid", 3, "ngSubmit", "formGroup"], [1, "field", "flex", "justify-end"], [1, "field"], ["for", "name"], ["id", "name", "type", "text", "pInputText", "", "formControlName", "name", 3, "ngClass"], ["class", "p-error", 4, "ngIf"], ["for", "categories"], [1, "grid", "formgrid"], [1, "col-12", "md:col-4"], ["for", "description"], ["formControlName", "description"], [1, "field", "flex"], ["type", "button", "pButton", "", "pRipple", "", 3, "click", "label"], ["for", "imageUrl"], ["name", "files", "url", "http://localhost:3000/api/admin/images/upload", "accept", "image/*", "maxFileSize", "1000000", 3, "onUpload", "onSelect", "multiple"], ["pTemplate", "header"], ["pTemplate", "content"], ["pTemplate", "file"], ["pTemplate", "empty"], [1, "flex", "justify-content-end", "gap-2", "mt-4"], ["pButton", "", "type", "button", "label", "\u53D6\u6D88", "routerLink", "/products", 1, "p-button-secondary"], ["pButton", "", "type", "submit", "label", "\u5132\u5B58", 3, "loading", "disabled"], ["for", "isPublished", 1, "mr-4"], ["formControlName", "isPublished"], [1, "p-error"], [1, "field-checkbox"], ["name", "categories", "formControlName", "categories", 3, "value", "inputId"], [3, "for"], ["role", "table", 1, "p-datatable", "p-component", 2, "width", "100%"], [1, "p-datatable-thead"], ["role", "row"], ["role", "columnheader"], [1, "p-column-title"], ["formArrayName", "productOptions", "role", "rowgroup", 1, "p-element", "p-datatable-tbody"], ["role", "row", 3, "formGroupName"], ["role", "cell", 1, "flex", "align-top", "border-none"], [1, "flex", "w-full"], ["type", "text", "pInputText", "", "placeholder", "\u8ACB\u8F38\u5165\u898F\u683C\u540D\u7A31, ex. \u984F\u8272", "formControlName", "name"], ["type", "button", "pButton", "", "icon", "pi pi-trash", 1, "p-button-danger", "ml-2"], ["type", "button", "pButton", "", "icon", "pi pi-plus", 1, "p-button-secondary", "ml-2"], ["formArrayName", "options", "role", "cell", 1, "w-1/2", "border-none"], [1, "flex", "align-items-center", "mb-2", 3, "formGroupName"], ["type", "button", "pButton", "", "icon", "pi pi-trash", 1, "p-button-danger", "ml-2", 3, "click"], ["type", "button", "pButton", "", "icon", "pi pi-plus", 1, "p-button-secondary", "ml-2", 3, "click"], ["type", "text", "pInputText", "", "placeholder", "\u8ACB\u8F38\u5165\u9078\u9805, ex. \u7D05\u8272", "formControlName", "value"], [1, "flex", "w-20", "grow-0", "shrink-0"], ["type", "button", "pButton", "", "icon", "pi pi-trash", 1, "p-button-danger", "ml-2", "basis-2/4", "grow-0", "shrink-0"], ["type", "button", "pButton", "", "icon", "pi pi-plus", 1, "p-button-secondary", "ml-2", "basis-2/4", "grow-0", "shrink-0"], ["type", "button", "pButton", "", "icon", "pi pi-trash", 1, "p-button-danger", "ml-2", "basis-2/4", "grow-0", "shrink-0", 3, "click"], ["type", "button", "pButton", "", "icon", "pi pi-plus", 1, "p-button-secondary", "ml-2", "basis-2/4", "grow-0", "shrink-0", 3, "click"], ["formArrayName", "productVariants", "role", "rowgroup", 1, "p-element", "p-datatable-tbody"], ["role", "cell", 1, "w-1/2", "border-none"], [1, "flex", "align-items-center", "mb-2"], ["placeholder", "\u8ACB\u8F38\u5165\u50F9\u683C", "buttonLayout", "horizontal", "spinnerMode", "horizontal", "decrementButtonClass", "p-button-secondary", "incrementButtonClass", "p-button-secondary", "incrementButtonIcon", "pi pi-plus", "decrementButtonIcon", "pi pi-minus", 3, "formControl", "min", "showButtons"], ["placeholder", "\u8ACB\u8F38\u5165\u5EAB\u5B58", "buttonLayout", "horizontal", "spinnerMode", "horizontal", "decrementButtonClass", "p-button-secondary", "incrementButtonClass", "p-button-secondary", "incrementButtonIcon", "pi pi-plus", "decrementButtonIcon", "pi pi-minus", 3, "formControl", "min", "showButtons"], ["for", "price"], ["id", "price", "formControlName", "price", "buttonLayout", "horizontal", "spinnerMode", "horizontal", "decrementButtonClass", "p-button-secondary", "incrementButtonClass", "p-button-secondary", "incrementButtonIcon", "pi pi-plus", "decrementButtonIcon", "pi pi-minus", 3, "min", "showButtons"], ["for", "stock"], ["id", "stock", "formControlName", "stock", "buttonLayout", "horizontal", "spinnerMode", "horizontal", "decrementButtonClass", "p-button-secondary", "incrementButtonClass", "p-button-secondary", "incrementButtonIcon", "pi pi-plus", "decrementButtonIcon", "pi pi-minus", 3, "min", "showButtons"], [1, "flex", "flex-wrap", "justify-content-between", "align-items-center", "flex-1", "gap-2"], [1, "flex", "gap-2"], ["icon", "pi pi-images", 3, "onClick", "rounded", "outlined"], ["icon", "pi pi-cloud-upload", "severity", "success", 3, "onClick", "rounded", "outlined", "disabled"], ["icon", "pi pi-times", "severity", "danger", 3, "onClick", "rounded", "outlined", "disabled"], ["styleClass", "md:w-20rem h-1rem w-full md:ml-auto", 3, "value", "showValue", "ngClass"], [1, "white-space-nowrap"], [4, "ngIf"], [1, "flex", "flex-wrap", "p-0", "sm:p-5", "gap-5"], ["class", "card m-0 px-6 flex flex-column border-1 surface-border align-items-center gap-3", 4, "ngFor", "ngForOf"], [1, "card", "m-0", "px-6", "flex", "flex-column", "border-1", "surface-border", "align-items-center", "gap-3"], ["role", "presentation", 1, "w-10rem", "h-5rem", "object-contain", 3, "alt", "src"], [1, "font-semibold"], ["value", "Pending", "severity", "warning"], ["icon", "pi pi-times", "severity", "danger", 3, "onClick", "outlined", "rounded"], ["value", "Completed", "severity", "success", 1, "mt-3"], ["icon", "pi pi-star-fill", "severity", "warning", 3, "outlined", "rounded"], ["icon", "pi pi-star", "severity", "warning", 3, "outlined", "rounded"], ["icon", "pi pi-star-fill", "severity", "warning", 3, "onClick", "outlined", "rounded"], ["icon", "pi pi-star", "severity", "warning", 3, "onClick", "outlined", "rounded"], [1, "flex", "align-items-center", "justify-content-center", "flex-column"], [1, "pi", "pi-cloud-upload", "border-2", "border-circle", "p-5", "text-8xl", "text-400", "border-400"], [1, "mt-4", "mb-0"]], template: function ProductFormComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ProductFormComponent, selectors: [["app-product-form"]], features: [\u0275\u0275ProvidersFeature([MessageService])], decls: 42, vars: 19, consts: [[1, "card"], [1, "flex", "justify-content-between", "align-items-center", "mb-4"], [1, "p-fluid", 3, "ngSubmit", "formGroup"], [1, "field", "flex", "justify-end"], [1, "field"], ["for", "name"], ["id", "name", "type", "text", "pInputText", "", "formControlName", "name", 3, "ngClass"], ["class", "p-error", 4, "ngIf"], ["for", "categories"], [1, "grid", "formgrid"], [1, "col-12", "md:col-4"], ["for", "summary"], ["id", "summary", "type", "text", "pInputText", "", "formControlName", "summary", 3, "ngClass"], ["for", "description"], ["formControlName", "description"], [1, "field", "flex"], ["type", "button", "pButton", "", "pRipple", "", 3, "click", "label"], ["for", "imageUrl"], ["name", "files", "url", "http://localhost:3000/api/admin/images/upload", "accept", "image/*", "maxFileSize", "1000000", 3, "onUpload", "onSelect", "multiple"], ["pTemplate", "header"], ["pTemplate", "content"], ["pTemplate", "file"], ["pTemplate", "empty"], [1, "flex", "justify-content-end", "gap-2", "mt-4"], ["pButton", "", "type", "button", "label", "\u53D6\u6D88", "routerLink", "/products", 1, "p-button-secondary"], ["pButton", "", "type", "submit", "label", "\u5132\u5B58", 3, "loading", "disabled"], ["for", "isPublished", 1, "mr-4"], ["formControlName", "isPublished"], [1, "p-error"], [1, "field-checkbox"], ["name", "categories", "formControlName", "categories", 3, "value", "inputId"], [3, "for"], ["role", "table", 1, "p-datatable", "p-component", 2, "width", "100%"], [1, "p-datatable-thead"], ["role", "row"], ["role", "columnheader"], [1, "p-column-title"], ["formArrayName", "productOptions", "role", "rowgroup", 1, "p-element", "p-datatable-tbody"], ["role", "row", 3, "formGroupName"], ["role", "cell", 1, "flex", "align-top", "border-none"], [1, "flex", "w-full"], ["type", "text", "pInputText", "", "placeholder", "\u8ACB\u8F38\u5165\u898F\u683C\u540D\u7A31, ex. \u984F\u8272", "formControlName", "name"], ["type", "button", "pButton", "", "icon", "pi pi-trash", 1, "p-button-danger", "ml-2"], ["type", "button", "pButton", "", "icon", "pi pi-plus", 1, "p-button-secondary", "ml-2"], ["formArrayName", "options", "role", "cell", 1, "w-1/2", "border-none"], [1, "flex", "align-items-center", "mb-2", 3, "formGroupName"], ["type", "button", "pButton", "", "icon", "pi pi-trash", 1, "p-button-danger", "ml-2", 3, "click"], ["type", "button", "pButton", "", "icon", "pi pi-plus", 1, "p-button-secondary", "ml-2", 3, "click"], ["type", "text", "pInputText", "", "placeholder", "\u8ACB\u8F38\u5165\u9078\u9805, ex. \u7D05\u8272", "formControlName", "value"], [1, "flex", "w-20", "grow-0", "shrink-0"], ["type", "button", "pButton", "", "icon", "pi pi-trash", 1, "p-button-danger", "ml-2", "basis-2/4", "grow-0", "shrink-0"], ["type", "button", "pButton", "", "icon", "pi pi-plus", 1, "p-button-secondary", "ml-2", "basis-2/4", "grow-0", "shrink-0"], ["type", "button", "pButton", "", "icon", "pi pi-trash", 1, "p-button-danger", "ml-2", "basis-2/4", "grow-0", "shrink-0", 3, "click"], ["type", "button", "pButton", "", "icon", "pi pi-plus", 1, "p-button-secondary", "ml-2", "basis-2/4", "grow-0", "shrink-0", 3, "click"], ["formArrayName", "productVariants", "role", "rowgroup", 1, "p-element", "p-datatable-tbody"], ["role", "cell", 1, "w-1/2", "border-none"], [1, "flex", "align-items-center", "mb-2"], ["placeholder", "\u8ACB\u8F38\u5165\u50F9\u683C", "buttonLayout", "horizontal", "spinnerMode", "horizontal", "decrementButtonClass", "p-button-secondary", "incrementButtonClass", "p-button-secondary", "incrementButtonIcon", "pi pi-plus", "decrementButtonIcon", "pi pi-minus", 3, "formControl", "min", "showButtons"], ["placeholder", "\u8ACB\u8F38\u5165\u5EAB\u5B58", "buttonLayout", "horizontal", "spinnerMode", "horizontal", "decrementButtonClass", "p-button-secondary", "incrementButtonClass", "p-button-secondary", "incrementButtonIcon", "pi pi-plus", "decrementButtonIcon", "pi pi-minus", 3, "formControl", "min", "showButtons"], ["for", "price"], ["id", "price", "formControlName", "price", "buttonLayout", "horizontal", "spinnerMode", "horizontal", "decrementButtonClass", "p-button-secondary", "incrementButtonClass", "p-button-secondary", "incrementButtonIcon", "pi pi-plus", "decrementButtonIcon", "pi pi-minus", 3, "min", "showButtons"], ["for", "stock"], ["id", "stock", "formControlName", "stock", "buttonLayout", "horizontal", "spinnerMode", "horizontal", "decrementButtonClass", "p-button-secondary", "incrementButtonClass", "p-button-secondary", "incrementButtonIcon", "pi pi-plus", "decrementButtonIcon", "pi pi-minus", 3, "min", "showButtons"], [1, "flex", "flex-wrap", "justify-content-between", "align-items-center", "flex-1", "gap-2"], [1, "flex", "gap-2"], ["icon", "pi pi-images", 3, "onClick", "rounded", "outlined"], ["icon", "pi pi-cloud-upload", "severity", "success", 3, "onClick", "rounded", "outlined", "disabled"], ["icon", "pi pi-times", "severity", "danger", 3, "onClick", "rounded", "outlined", "disabled"], ["styleClass", "md:w-20rem h-1rem w-full md:ml-auto", 3, "value", "showValue", "ngClass"], [1, "white-space-nowrap"], [4, "ngIf"], [1, "flex", "flex-wrap", "p-0", "sm:p-5", "gap-5"], ["class", "card m-0 px-6 flex flex-column border-1 surface-border align-items-center gap-3", 4, "ngFor", "ngForOf"], [1, "card", "m-0", "px-6", "flex", "flex-column", "border-1", "surface-border", "align-items-center", "gap-3"], ["role", "presentation", 1, "w-10rem", "h-5rem", "object-contain", 3, "alt", "src"], [1, "font-semibold"], ["value", "Pending", "severity", "warning"], ["icon", "pi pi-times", "severity", "danger", 3, "onClick", "outlined", "rounded"], ["value", "Completed", "severity", "success", 1, "mt-3"], ["icon", "pi pi-star-fill", "severity", "warning", 3, "outlined", "rounded"], ["icon", "pi pi-star", "severity", "warning", 3, "outlined", "rounded"], ["icon", "pi pi-star-fill", "severity", "warning", 3, "onClick", "outlined", "rounded"], ["icon", "pi pi-star", "severity", "warning", 3, "onClick", "outlined", "rounded"], [1, "flex", "align-items-center", "justify-content-center", "flex-column"], [1, "pi", "pi-cloud-upload", "border-2", "border-circle", "p-5", "text-8xl", "text-400", "border-400"], [1, "mt-4", "mb-0"]], template: function ProductFormComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0)(1, "div", 1)(2, "h2");
       \u0275\u0275text(3);
@@ -1212,37 +1213,43 @@ var ProductFormComponent = class _ProductFormComponent {
       \u0275\u0275repeaterCreate(15, ProductFormComponent_For_16_Template, 5, 6, "div", 10, \u0275\u0275repeaterTrackByIndex);
       \u0275\u0275elementEnd()();
       \u0275\u0275elementStart(17, "div", 4)(18, "label", 11);
-      \u0275\u0275text(19, "\u63CF\u8FF0");
+      \u0275\u0275text(19, "\u6458\u8981");
       \u0275\u0275elementEnd();
-      \u0275\u0275element(20, "p-editor", 12);
-      \u0275\u0275template(21, ProductFormComponent_small_21_Template, 2, 0, "small", 7);
+      \u0275\u0275element(20, "input", 12);
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(22, "div", 13)(23, "button", 14);
-      \u0275\u0275listener("click", function ProductFormComponent_Template_button_click_23_listener() {
+      \u0275\u0275elementStart(21, "div", 4)(22, "label", 13);
+      \u0275\u0275text(23, "\u63CF\u8FF0");
+      \u0275\u0275elementEnd();
+      \u0275\u0275element(24, "p-editor", 14);
+      \u0275\u0275template(25, ProductFormComponent_small_25_Template, 2, 0, "small", 7);
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(26, "div", 15)(27, "button", 16);
+      \u0275\u0275listener("click", function ProductFormComponent_Template_button_click_27_listener() {
         return ctx.useProductVariant.setValue(!ctx.useProductVariant.value);
       });
       \u0275\u0275elementEnd()();
-      \u0275\u0275template(24, ProductFormComponent_Conditional_24_Template, 13, 1)(25, ProductFormComponent_Conditional_25_Template, 10, 6);
-      \u0275\u0275elementStart(26, "div", 4)(27, "label", 15);
-      \u0275\u0275text(28, "\u5716\u7247");
+      \u0275\u0275template(28, ProductFormComponent_Conditional_28_Template, 13, 1)(29, ProductFormComponent_Conditional_29_Template, 10, 6);
+      \u0275\u0275elementStart(30, "div", 4)(31, "label", 17);
+      \u0275\u0275text(32, "\u5716\u7247");
       \u0275\u0275elementEnd();
-      \u0275\u0275element(29, "p-toast");
-      \u0275\u0275elementStart(30, "p-fileUpload", 16);
-      \u0275\u0275listener("onUpload", function ProductFormComponent_Template_p_fileUpload_onUpload_30_listener($event) {
+      \u0275\u0275element(33, "p-toast");
+      \u0275\u0275elementStart(34, "p-fileUpload", 18);
+      \u0275\u0275listener("onUpload", function ProductFormComponent_Template_p_fileUpload_onUpload_34_listener($event) {
         return ctx.onTemplatedUpload($event);
-      })("onSelect", function ProductFormComponent_Template_p_fileUpload_onSelect_30_listener($event) {
+      })("onSelect", function ProductFormComponent_Template_p_fileUpload_onSelect_34_listener($event) {
         return ctx.onSelectedFiles($event);
       });
-      \u0275\u0275template(31, ProductFormComponent_ng_template_31_Template, 8, 14, "ng-template", 17)(32, ProductFormComponent_ng_template_32_Template, 2, 2, "ng-template", 18)(33, ProductFormComponent_ng_template_33_Template, 0, 0, "ng-template", 19)(34, ProductFormComponent_ng_template_34_Template, 1, 1, "ng-template", 20);
+      \u0275\u0275template(35, ProductFormComponent_ng_template_35_Template, 8, 14, "ng-template", 19)(36, ProductFormComponent_ng_template_36_Template, 2, 2, "ng-template", 20)(37, ProductFormComponent_ng_template_37_Template, 0, 0, "ng-template", 21)(38, ProductFormComponent_ng_template_38_Template, 1, 1, "ng-template", 22);
       \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(35, "div", 21);
-      \u0275\u0275element(36, "button", 22)(37, "button", 23);
+      \u0275\u0275elementStart(39, "div", 23);
+      \u0275\u0275element(40, "button", 24)(41, "button", 25);
       \u0275\u0275elementEnd()()();
     }
     if (rf & 2) {
       let tmp_3_0;
       let tmp_4_0;
-      let tmp_7_0;
+      let tmp_6_0;
+      let tmp_8_0;
       \u0275\u0275advance(3);
       \u0275\u0275textInterpolate1("", ctx.isEditMode ? "\u7DE8\u8F2F" : "\u65B0\u589E", "\u5546\u54C1");
       \u0275\u0275advance();
@@ -1250,19 +1257,21 @@ var ProductFormComponent = class _ProductFormComponent {
       \u0275\u0275advance();
       \u0275\u0275conditional(ctx.isEditMode ? 5 : -1);
       \u0275\u0275advance(4);
-      \u0275\u0275property("ngClass", \u0275\u0275pureFunction1(13, _c02, ((tmp_3_0 = ctx.productForm.get("name")) == null ? null : tmp_3_0.invalid) && ((tmp_3_0 = ctx.productForm.get("name")) == null ? null : tmp_3_0.touched)));
+      \u0275\u0275property("ngClass", \u0275\u0275pureFunction1(14, _c02, ((tmp_3_0 = ctx.productForm.get("name")) == null ? null : tmp_3_0.invalid) && ((tmp_3_0 = ctx.productForm.get("name")) == null ? null : tmp_3_0.touched)));
       \u0275\u0275advance();
       \u0275\u0275property("ngIf", ((tmp_4_0 = ctx.productForm.get("name")) == null ? null : tmp_4_0.invalid) && ((tmp_4_0 = ctx.productForm.get("name")) == null ? null : tmp_4_0.touched));
       \u0275\u0275advance(5);
       \u0275\u0275repeater(ctx.categories);
       \u0275\u0275advance(5);
-      \u0275\u0275styleMap(\u0275\u0275pureFunction0(15, _c12));
+      \u0275\u0275property("ngClass", \u0275\u0275pureFunction1(16, _c02, ((tmp_6_0 = ctx.productForm.get("summary")) == null ? null : tmp_6_0.invalid) && ((tmp_6_0 = ctx.productForm.get("summary")) == null ? null : tmp_6_0.touched)));
+      \u0275\u0275advance(4);
+      \u0275\u0275styleMap(\u0275\u0275pureFunction0(18, _c12));
       \u0275\u0275advance();
-      \u0275\u0275property("ngIf", ((tmp_7_0 = ctx.productForm.get("description")) == null ? null : tmp_7_0.invalid) && ((tmp_7_0 = ctx.productForm.get("description")) == null ? null : tmp_7_0.touched));
+      \u0275\u0275property("ngIf", ((tmp_8_0 = ctx.productForm.get("description")) == null ? null : tmp_8_0.invalid) && ((tmp_8_0 = ctx.productForm.get("description")) == null ? null : tmp_8_0.touched));
       \u0275\u0275advance(2);
       \u0275\u0275property("label", (ctx.useProductVariant.value ? "\u95DC\u9589" : "\u958B\u555F") + "\u5546\u54C1\u898F\u683C");
       \u0275\u0275advance();
-      \u0275\u0275conditional(ctx.useProductVariant.value ? 24 : 25);
+      \u0275\u0275conditional(ctx.useProductVariant.value ? 28 : 29);
       \u0275\u0275advance(6);
       \u0275\u0275property("multiple", true);
       \u0275\u0275advance(7);
@@ -1488,4 +1497,4 @@ var ProductsModule = class _ProductsModule {
 export {
   ProductsModule
 };
-//# sourceMappingURL=chunk-DUOVQRPD.js.map
+//# sourceMappingURL=chunk-YGTLJX5X.js.map

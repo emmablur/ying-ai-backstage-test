@@ -1,7 +1,7 @@
 import {
   AdminCommonService,
   AdminOrderService
-} from "./chunk-SCDWBYXY.js";
+} from "./chunk-C3WQ4M3N.js";
 import "./chunk-DT3GFCNP.js";
 import "./chunk-VUC5HP7I.js";
 import "./chunk-NL6JKAZG.js";
@@ -927,4 +927,4 @@ var OrderModule = class _OrderModule {
 export {
   OrderModule
 };
-//# sourceMappingURL=chunk-6JABGY2U.js.map
+//# sourceMappingURL=chunk-VMITTUI5.js.map

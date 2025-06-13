@@ -5,7 +5,7 @@ import {
 import {
   AdminMenusService,
   CategoryService
-} from "./chunk-SCDWBYXY.js";
+} from "./chunk-C3WQ4M3N.js";
 import "./chunk-DT3GFCNP.js";
 import "./chunk-VUC5HP7I.js";
 import "./chunk-NL6JKAZG.js";
@@ -146,6 +146,7 @@ import {
   ɵɵattribute,
   ɵɵclassMap,
   ɵɵclassProp,
+  ɵɵconditional,
   ɵɵcontentQuery,
   ɵɵdefineComponent,
   ɵɵdefineDirective,
@@ -7512,14 +7513,34 @@ function MenuListComponent_p_tree_13_ng_template_1_span_8_Template(rf, ctx) {
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
-    const node_r4 = \u0275\u0275nextContext().$implicit;
+    const node_r3 = \u0275\u0275nextContext().$implicit;
     \u0275\u0275advance();
-    \u0275\u0275textInterpolate(node_r4.data.description);
+    \u0275\u0275textInterpolate(node_r3.data.description);
+  }
+}
+function MenuListComponent_p_tree_13_ng_template_1_Conditional_14_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r4 = \u0275\u0275getCurrentView();
+    \u0275\u0275elementStart(0, "button", 24);
+    \u0275\u0275listener("click", function MenuListComponent_p_tree_13_ng_template_1_Conditional_14_Template_button_click_0_listener() {
+      \u0275\u0275restoreView(_r4);
+      const node_r3 = \u0275\u0275nextContext().$implicit;
+      const ctx_r1 = \u0275\u0275nextContext(2);
+      return \u0275\u0275resetView(ctx_r1.editMenu(node_r3.data));
+    });
+    \u0275\u0275elementEnd();
+    \u0275\u0275elementStart(1, "button", 25);
+    \u0275\u0275listener("click", function MenuListComponent_p_tree_13_ng_template_1_Conditional_14_Template_button_click_1_listener() {
+      \u0275\u0275restoreView(_r4);
+      const node_r3 = \u0275\u0275nextContext().$implicit;
+      const ctx_r1 = \u0275\u0275nextContext(2);
+      return \u0275\u0275resetView(ctx_r1.confirmDelete(node_r3.data));
+    });
+    \u0275\u0275elementEnd();
   }
 }
 function MenuListComponent_p_tree_13_ng_template_1_Template(rf, ctx) {
   if (rf & 1) {
-    const _r3 = \u0275\u0275getCurrentView();
     \u0275\u0275elementStart(0, "div", 15)(1, "div", 16);
     \u0275\u0275element(2, "i", 17);
     \u0275\u0275elementStart(3, "div")(4, "div", 18);
@@ -7534,38 +7555,29 @@ function MenuListComponent_p_tree_13_ng_template_1_Template(rf, ctx) {
     \u0275\u0275elementStart(11, "span", 23);
     \u0275\u0275text(12);
     \u0275\u0275elementEnd()()()();
-    \u0275\u0275elementStart(13, "div", 16)(14, "button", 24);
-    \u0275\u0275listener("click", function MenuListComponent_p_tree_13_ng_template_1_Template_button_click_14_listener() {
-      const node_r4 = \u0275\u0275restoreView(_r3).$implicit;
-      const ctx_r1 = \u0275\u0275nextContext(2);
-      return \u0275\u0275resetView(ctx_r1.editMenu(node_r4.data));
-    });
-    \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(15, "button", 25);
-    \u0275\u0275listener("click", function MenuListComponent_p_tree_13_ng_template_1_Template_button_click_15_listener() {
-      const node_r4 = \u0275\u0275restoreView(_r3).$implicit;
-      const ctx_r1 = \u0275\u0275nextContext(2);
-      return \u0275\u0275resetView(ctx_r1.confirmDelete(node_r4.data));
-    });
-    \u0275\u0275elementEnd()()();
+    \u0275\u0275elementStart(13, "div", 16);
+    \u0275\u0275template(14, MenuListComponent_p_tree_13_ng_template_1_Conditional_14_Template, 2, 0);
+    \u0275\u0275elementEnd()();
   }
   if (rf & 2) {
-    const node_r4 = ctx.$implicit;
+    const node_r3 = ctx.$implicit;
     const ctx_r1 = \u0275\u0275nextContext(2);
     \u0275\u0275advance(2);
-    \u0275\u0275property("ngClass", node_r4.data.icon || "pi pi-circle");
+    \u0275\u0275property("ngClass", node_r3.data.icon || "pi pi-circle");
     \u0275\u0275advance(3);
-    \u0275\u0275textInterpolate(node_r4.data.name);
+    \u0275\u0275textInterpolate(node_r3.data.name);
     \u0275\u0275advance(2);
-    \u0275\u0275property("value", ctx_r1.getMenuTypeLabel(node_r4.data.menuType))("severity", ctx_r1.getMenuTypeSeverity(node_r4.data.menuType));
+    \u0275\u0275property("value", ctx_r1.getMenuTypeLabel(node_r3.data.menuType))("severity", ctx_r1.getMenuTypeSeverity(node_r3.data.menuType));
     \u0275\u0275advance();
-    \u0275\u0275property("ngIf", node_r4.data.description);
+    \u0275\u0275property("ngIf", node_r3.data.description);
     \u0275\u0275advance();
-    \u0275\u0275property("ngClass", \u0275\u0275pureFunction2(8, _c03, node_r4.data.level === 2, node_r4.data.level < 2));
+    \u0275\u0275property("ngClass", \u0275\u0275pureFunction2(9, _c03, node_r3.data.level === 2, node_r3.data.level < 2));
     \u0275\u0275advance();
-    \u0275\u0275textInterpolate1(" \u5C64\u7D1A: ", node_r4.data.level + 1, " ");
+    \u0275\u0275textInterpolate1(" \u5C64\u7D1A: ", node_r3.data.level + 1, " ");
     \u0275\u0275advance(2);
-    \u0275\u0275textInterpolate1("\u6392\u5E8F: ", node_r4.data.displayOrder, "");
+    \u0275\u0275textInterpolate1("\u6392\u5E8F: ", node_r3.data.displayOrder, "");
+    \u0275\u0275advance(2);
+    \u0275\u0275conditional(node_r3.data.isDeletable !== false ? 14 : -1);
   }
 }
 function MenuListComponent_p_tree_13_Template(rf, ctx) {
@@ -7577,7 +7589,7 @@ function MenuListComponent_p_tree_13_Template(rf, ctx) {
       const ctx_r1 = \u0275\u0275nextContext();
       return \u0275\u0275resetView(ctx_r1.onNodeDrop($event));
     });
-    \u0275\u0275template(1, MenuListComponent_p_tree_13_ng_template_1_Template, 16, 11, "ng-template", 14);
+    \u0275\u0275template(1, MenuListComponent_p_tree_13_ng_template_1_Template, 15, 12, "ng-template", 14);
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
@@ -8360,10 +8372,8 @@ var MenuFormComponent = class _MenuFormComponent {
         this.messageService.add({
           severity: "error",
           summary: "\u932F\u8AA4",
-          detail: "\u5EFA\u7ACB\u9078\u55AE\u5931\u6557"
+          detail: error.message
         });
-      },
-      complete: () => {
         this.submitting = false;
       }
     });
@@ -8517,4 +8527,4 @@ var MenusModule = class _MenusModule {
 export {
   MenusModule
 };
-//# sourceMappingURL=chunk-CACK52KI.js.map
+//# sourceMappingURL=chunk-ZWY64744.js.map
