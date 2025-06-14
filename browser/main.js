@@ -5,6 +5,9 @@ import "./chunk-C3WQ4M3N.js";
 import "./chunk-DT3GFCNP.js";
 import "./chunk-VUC5HP7I.js";
 import "./chunk-NL6JKAZG.js";
+import {
+  environment
+} from "./chunk-OXLOBVK3.js";
 import "./chunk-PZBKEVDN.js";
 import "./chunk-JUXCCURE.js";
 import {
@@ -2732,7 +2735,7 @@ var routes = [
       { path: "", component: HomeComponent },
       {
         path: "products",
-        loadChildren: () => import("./chunk-YGTLJX5X.js").then((m) => m.ProductsModule)
+        loadChildren: () => import("./chunk-BULA7S7B.js").then((m) => m.ProductsModule)
       },
       {
         path: "order",
@@ -2744,7 +2747,7 @@ var routes = [
       },
       {
         path: "settings",
-        loadChildren: () => import("./chunk-CY7NBP5G.js").then((m) => m.SettingsModule)
+        loadChildren: () => import("./chunk-CC3LOF4W.js").then((m) => m.SettingsModule)
       },
       {
         path: "accounts",
@@ -2791,7 +2794,7 @@ var authInterceptor = (req, next) => {
         return logoutAndRedirect(error, authService, router, messageService);
       }
     }
-    return throwError(() => error);
+    return throwError(() => error.error);
   }));
 };
 function handleUnauthorizedError(request, next, error, authService, router, messageService) {
@@ -2836,37 +2839,15 @@ function logoutAndRedirect(error, authService, router, messageService) {
   return throwError(() => error);
 }
 
-// src/environments/environment.ts
-var environment = {
-  production: false,
-  siteTitle: "\u5F8C\u53F0\u6E2C\u8A66\u7AD9-\u82F1\u611B\u624B\u4F5C",
-  basePath: "https://ying-ai-backend.onrender.com",
-  apiUrl: "https://ying-ai-backend.onrender.com"
-};
-
-// src/app/core/interceptors/error.interceptor.ts
-var errorInterceptor = (req, next) => {
-  const router = inject(Router);
-  const authService = inject(AuthService);
-  return next(req).pipe(catchError((error) => {
-    console.error("Error occurred:", error);
-    if (error.status === 401) {
-      return throwError(() => error);
-    }
-    return throwError(() => error.error);
-  }));
-};
-
 // src/app/app.config.ts
 var appConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     provideAnimationsAsync(),
-    provideHttpClient(withInterceptors([authInterceptor, errorInterceptor])),
+    provideHttpClient(withInterceptors([authInterceptor])),
     { provide: BASE_PATH, useValue: environment.basePath },
     MessageService
-    // Provide MessageService globally for the interceptor
   ]
 };
 

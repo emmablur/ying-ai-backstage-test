@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/environments/environment.test.ts"],
+  "sourcesContent": ["export const environment = {\n  production: false,\n  siteTitle: '後台測試站-英愛手作',\n  basePath: 'https://ying-ai-backend.onrender.com',\n  apiUrl: 'https://ying-ai-backend.onrender.com',\n};\n"],
+  "mappings": ";AAAO,IAAM,cAAc;EACzB,YAAY;EACZ,WAAW;EACX,UAAU;EACV,QAAQ;;",
+  "names": []
+}
