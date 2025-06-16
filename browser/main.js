@@ -789,29 +789,8 @@ var AppMenuComponent = class _AppMenuComponent {
   ngOnInit() {
     this.model = [
       {
-        label: "Home",
+        label: "\u7DB2\u7AD9\u7BA1\u7406",
         items: [
-          { label: "Dashboard", icon: "pi pi-fw pi-home", routerLink: ["/"] },
-          {
-            label: "\u5546\u54C1\u7BA1\u7406",
-            icon: "pi pi-fw pi-shopping-bag",
-            routerLink: ["/products"]
-          },
-          {
-            label: "\u8A02\u55AE\u7BA1\u7406",
-            icon: "pi pi-fw pi-list",
-            routerLink: ["/order"]
-          },
-          {
-            label: "\u4F7F\u7528\u8005\u7BA1\u7406",
-            icon: "pi pi-fw pi-users",
-            routerLink: ["/users"]
-          },
-          {
-            label: "\u5E33\u6236\u7BA1\u7406",
-            icon: "pi pi-fw pi-user",
-            routerLink: ["/accounts"]
-          },
           {
             label: "\u5167\u5BB9\u7BA1\u7406",
             icon: "pi pi-fw pi-pencil",
@@ -821,17 +800,37 @@ var AppMenuComponent = class _AppMenuComponent {
             label: "\u9078\u55AE\u7BA1\u7406",
             icon: "pi pi-fw pi-bars",
             routerLink: ["/menus"]
+          },
+          {
+            label: "\u5546\u54C1\u7BA1\u7406",
+            icon: "pi pi-fw pi-shopping-bag",
+            routerLink: ["/products"]
+          },
+          {
+            label: "\u4F7F\u7528\u8005\u7BA1\u7406",
+            icon: "pi pi-fw pi-users",
+            routerLink: ["/users"]
           }
         ]
       },
       {
-        label: "\u7CFB\u7D71\u8A2D\u5B9A",
+        label: "\u8A02\u55AE\u7BA1\u7406",
         items: [
+          {
+            label: "\u8A02\u55AE\u7BA1\u7406",
+            icon: "pi pi-fw pi-list",
+            routerLink: ["/order"]
+          },
           {
             label: "\u4ED8\u6B3E\u8CC7\u8A0A\u7BA1\u7406",
             icon: "pi pi-fw pi-credit-card",
             routerLink: ["/settings/payment-info"]
-          },
+          }
+        ]
+      },
+      {
+        label: "\u9996\u9801\u7BA1\u7406",
+        items: [
           {
             label: "\u9996\u9801\u5927\u5716\u8F2A\u64AD\u7BA1\u7406",
             icon: "pi pi-fw pi-images",
@@ -841,6 +840,16 @@ var AppMenuComponent = class _AppMenuComponent {
             label: "\u9996\u9801\u5546\u54C1\u8F2A\u64AD\u7BA1\u7406",
             icon: "pi pi-fw pi-shopping-cart",
             routerLink: ["/settings/homepage-product-carousel"]
+          }
+        ]
+      },
+      {
+        label: " \u7CFB\u7D71\u7BA1\u7406",
+        items: [
+          {
+            label: "\u5E33\u6236\u7BA1\u7406",
+            icon: "pi pi-fw pi-user",
+            routerLink: ["/accounts"]
           }
         ]
       }

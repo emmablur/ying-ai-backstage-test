@@ -3499,7 +3499,7 @@
   .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
     background: #0f766e;
     border-color: #0f766e;
-    color: #0f766e;
+    color: white;
   }
   .p-paginator .p-paginator-pages .p-paginator-page:not(.p-highlight):hover {
     background: #f3f4f6;
